@@ -1,0 +1,36 @@
+.card-container {
+  display: flex;
+  text-align: left;
+  gap: 40px;
+  border-radius: 10px;
+  flex-direction: column;
+  margin-top: 10px;
+  & .card {
+    width: 280px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgb(216, 214, 212);
+    color: #3e404c;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 15px;
+    & img {
+      border-radius: 10px;
+      width: 250px;
+      height: 400px;
+      margin: 0 0 5px 0;
+      object-fit: cover;
+    }
+    & h4 {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    & h5 {
+      margin-top: 5px;
+      font-size: .8rem;
+      color: #3e404c;
+      font-weight: lighter;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "team": [
+    {
+      "picture": "public/img/personas/khyara.webp",
+      "alt": "Imagen de Khyara Montoya Montoya",
+      "name": "Khyara Montoya Montoya",
+      "position": "Presidenta y fundadora"
+    },
+    {
+      "picture": "public/img/personas/jacqueline.webp",
+      "alt": "Imagen de Jacqueline Montoya Riquelme",
+      "name": "Jacqueline Montoya Riquelme", 
+      "position": "Tesorera y fundadora"
+    },
+    {
+      "picture": "public/img/personas/alexandra.webp",
+      "alt": "Imagen de Alexandra Salas Montenegro",
+      "name": "Alexandra Salas Montenegro",
+      "position": "Secretaria"
+    }
+  ],
+  "teamEtica": [
+    {
+      "picture": "public/img/personas/patricio.webp",
+      "alt": "Imagen de Patricio Flores",
+      "name": "Patricio Flores",
+      "position": "Presidente Comisión de Ética"
+    },
+    {
+      "picture": "public/img/personas/sofia.webp",
+      "alt": "Imagen de Sofia Aguallo",
+      "name": "Sofia Aguallo"
+    },
+    {
+      "picture": "public/img/personas/jeanette.webp",
+      "alt": "Imagen de Jeanette Acevedo Véliz",
+      "name": "Jeanette Acevedo Véliz"
+    }
+  ],
+  "teamCuentas": [
+    {
+      "picture": "public/img/personas/kiara.webp",
+      "alt": "Imagen de Kiara Labra Sánchez",
+      "name": "Kiara Labra Sánchez",
+      "position": "Presidenta Comisión Revisora de Cuentas"
+    },
+    {
+      "picture": "public/img/personas/miguel.webp",
+      "alt": "Imagen de Miguel Vicencio",
+      "name": "Miguel Vicencio"
+    }
+  ]
+}

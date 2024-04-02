@@ -1,0 +1,207 @@
+{
+  "carousel1": [
+    {
+      "src": "public/img/carousel/carousel-1.webp",
+      "alt": "Image 1 for carousel",
+      "description": "Taller de uso de lenguaje en SUV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2.webp",
+      "alt": "Image 2 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    }
+  ],
+  "carousel2": [
+    {
+      "src": "public/img/carousel/carousel-2-1.webp",
+      "alt": "Image 1 for carousel",
+      "description": "Presentacion ONG en GTC UV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2-2.webp",
+      "alt": "Image 2 for carousel",
+      "description": "Taller de uso del lenguaje en TSUV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2-3.webp",
+      "alt": "Image 3 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2-4.webp",
+      "alt": "Image 4 for carousel",
+      "description": "Taller de uso de lenguaje en UVM"
+    }
+  ],
+  "carousel3": [
+    {
+      "src": "public/img/carousel/carousel-3-1.webp",
+      "alt": "Image 1 for carousel",
+      "description": "Avanzada Barrial CESFAM Quebrada Verde"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-2.webp",
+      "alt": "Image 2 for carousel",
+      "description": "Avanzada Barrial CESFAM Quebrada Verde"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-3.webp",
+      "alt": "Image 3 for carousel",
+      "description": "Feria Valparaiso Inclusivo"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-4.webp",
+      "alt": "Image 4 for carousel",
+      "description": "Feria Valparaiso Inclusivo"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-5.webp",
+      "alt": "Image 5 for carousel",
+      "description": "Feria Hospital Dr. Eduardo Pereira"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-6.webp",
+      "alt": "Image 4 for carousel",
+      "description": "Feria Valparaiso Inclusivo"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-7.webp",
+      "alt": "Image 5 for carousel",
+      "description": "Feria en Viña del Mar"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-8.webp",
+      "alt": "Image 4 for carousel",
+      "description": "Avanzada Barrial CESFAM Quebrada Verde"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-9.webp",
+      "alt": "Image 5 for carousel",
+      "description": "Avanzada Barrial CESFAM Quebrada Verde"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-10.jpeg",
+      "alt": "Image 4 for carousel",
+      "description": "Feria de Salud en Viña del Mar"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-11.webp",
+      "alt": "Image 5 for carousel",
+      "description": "Feria de Salud en Viña del Mar"
+    },
+    {
+      "src": "public/img/carousel/carousel-3-12.webp",
+      "alt": "Image 4 for carousel",
+      "description": "Feria de Salud en Viña del Mar"
+    }
+  ],
+  "carousel4": [
+    {
+      "src": "public/img/carousel/carousel-1.webp",
+      "alt": "Image 1 for carousel",
+      "description": "Taller de uso de lenguaje en SUV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2.webp",
+      "alt": "Image 2 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2.webp",
+      "alt": "Image 2 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2.webp",
+      "alt": "Image 2 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2.webp",
+      "alt": "Image 2 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    }
+  ],
+  "carousel5": [
+    {
+      "src": "public/img/carousel/carousel-1.webp",
+      "alt": "Image 1 for carousel",
+      "description": "Taller de uso de lenguaje en SUV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2.webp",
+      "alt": "Image 2 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "https://picsum.photos/seed/img3/600/400",
+      "alt": "Image 3 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "https://picsum.photos/seed/img4/600/400",
+      "alt": "Image 4 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "https://picsum.photos/seed/img5/600/400",
+      "alt": "Image 5 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    }
+  ],
+  "carousel6": [
+    {
+      "src": "public/img/carousel/carousel-1.webp",
+      "alt": "Image 1 for carousel",
+      "description": "Taller de uso de lenguaje en SUV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2.webp",
+      "alt": "Image 2 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "https://picsum.photos/seed/img3/600/400",
+      "alt": "Image 3 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "https://picsum.photos/seed/img4/600/400",
+      "alt": "Image 4 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "https://picsum.photos/seed/img5/600/400",
+      "alt": "Image 5 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    }
+  ],
+  "carousel7": [
+    {
+      "src": "public/img/carousel/carousel-1.webp",
+      "alt": "Image 1 for carousel",
+      "description": "Taller de uso de lenguaje en SUV"
+    },
+    {
+      "src": "public/img/carousel/carousel-2.webp",
+      "alt": "Image 2 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "https://picsum.photos/seed/img3/600/400",
+      "alt": "Image 3 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "https://picsum.photos/seed/img4/600/400",
+      "alt": "Image 4 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    },
+    {
+      "src": "https://picsum.photos/seed/img5/600/400",
+      "alt": "Image 5 for carousel",
+      "description": "Taller de uso de lenguaje en TSUV"
+    }
+  ]
+
+}

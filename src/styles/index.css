@@ -1,0 +1,20 @@
+:root {
+    --PrimaryColor: #fdfdfd;
+    --SecondaryColor: #3e404c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--PrimaryColor);
+    font-family: 'Exo', sans-serif;
+    max-width: 1440px;
+    min-width: 375px;
+    font-size: 0.875rem;
+    margin: 0 auto;
+    color: var(--SecondaryColor);
+}
