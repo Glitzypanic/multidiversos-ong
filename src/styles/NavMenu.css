@@ -25,6 +25,23 @@ nav {
     & .links {
       margin-top: 30px;
       list-style: none;
+      & .links-subTitle {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+      }
+      & .activities {
+        display: flex;
+        align-items:  center;
+        gap: 5px;
+        width: fit-content;
+      }
+      & ul {
+        display: none;
+        list-style: none;
+        font-size: .8rem;
+        padding: 0 15px;
+      }
       & li {
         margin-bottom: 10px;
         & a {

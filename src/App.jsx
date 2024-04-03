@@ -1,7 +1,8 @@
 import "./styles/App.css";
-import Header from "./components/Header.jsx";
+import { Routes, Route } from "react-router-dom";
+import Diversidad from "./pages/Diversidad.jsx";
 import BannerImg from "./assets/banner.webp";
-import NavMenu from "./components/NavMenu.jsx";
+import Layout from "./Layout/Layout.jsx";
 import { Carousel } from "./components/Carousel";
 import { carousel1 } from "./data/carouselData.json";
 import { carousel2 } from "./data/carouselData.json";
@@ -14,15 +15,15 @@ import { team } from "./data/teamData.json";
 import { teamEtica } from "./data/teamData.json";
 import { teamCuentas } from "./data/teamData.json";
 import TeamCard from "./components/TeamCard.jsx";
-import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <main>
-      <Header />
-      <NavMenu />
+    <Layout>
+      <Routes>
+        <Route path="/Diversidad" element={<Diversidad />} />
+      </Routes>
       <div className="banner">
-        <img src={BannerImg} alt="" />
+        <img src={BannerImg} alt="Banner de Multidiversos" />
       </div>
 
       <section className="about">
@@ -122,8 +123,7 @@ function App() {
         </div>
         <TeamCard data={teamCuentas} />
       </section>
-      <Footer />
-    </main>
+    </Layout>
   );
 }
 
