@@ -9,23 +9,23 @@ function Footer() {
   return (
     <footer>
         <div className="footer-logo">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="Logo MULTIDIVERSOS" />
           <span>ONG MULTIDIVERSOS</span>
         </div>
         <div className="footer-social">
           <h3>Redes Sociales</h3>
           <ul>
             <li>
-              <Facebook fill="red"/>
+              <Facebook fill="#fdfdfd"/>
             </li>
             <li>
-              <a href="#"></a>
+              <Instagram stroke="#fdfdfd"/>
             </li>
             <li>
-              <a href="#"></a>
+              <WhatsApp stroke="#fdfdfd"/>
             </li>
             <li>
-              <a href="#"></a>
+              <Mail stroke="#fdfdfd"/>
             </li>
           </ul>
         </div>

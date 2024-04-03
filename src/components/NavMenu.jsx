@@ -1,5 +1,8 @@
 import "../styles/NavMenu.css";
-import CloseMenu from "./svg/CloseMenu.jsx";
+import CloseMenu from "./svg/CloseMenu";
+import Facebook from "./svg/Facebook";
+import Instagram from "./svg/Instagram";
+import WhatsApp from "./svg/Whatsapp";
 
 function NavMenu() {
   return (
@@ -7,7 +10,7 @@ function NavMenu() {
       <div className="back"></div>
       <div className="front">
         <div className="front-close-menu">
-            <img src={CloseMenu} alt="" />
+          <CloseMenu stroke="#3e404c" />
         </div>
         <ul className="links">
           <li>
@@ -32,13 +35,13 @@ function NavMenu() {
         <div className="front-contact">
           <ul className="contact-social">
           <li>
-              <a href="#"><img src="src/assets/brand-facebook.svg" alt="Logo de Facebook" /></a>
+              <a href="#"><Facebook fill="#3e404c"/></a>
             </li>
             <li>
-              <a href="#"><img src="src/assets/brand-instagram.svg" alt="Logo de Instagram" /></a>
+              <a href="#"><Instagram stroke="#3e404c"/></a>
             </li>
             <li>
-              <a href="#"><img src="src/assets/brand-whatsapp.svg" alt="Logo de Whatsapp" /></a>
+              <a href="#"><WhatsApp stroke="#3e404c"/></a>
             </li>
           </ul>
         </div>

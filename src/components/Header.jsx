@@ -32,7 +32,7 @@ function Header() {
                     <a href="/documento">Documento ONG</a>
                 </li>
             </ul>
-            <img className="menu-icon" src={MenuIcon} alt="icono del menu" />
+            <MenuIcon stroke="#3e404c" className="menu-icon"/>
         </header>
     )
 }

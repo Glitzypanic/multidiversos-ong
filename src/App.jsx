@@ -98,6 +98,11 @@ function App() {
           de diferentes universidades
         </p>
       </section>
+      <div className="form">
+        <h2>Quieres ser parte de nuestro equipo?</h2>
+        <p>Rellena este formulario!</p>
+        <button>Presiona aqui!</button>
+      </div>
       <section className="teamwork-container">
         <div className="title">
           <h2>Les presentamos parte del equipo...</h2>
@@ -117,11 +122,6 @@ function App() {
         </div>
         <TeamCard data={teamCuentas} />
       </section>
-      <div className="form">
-        <h2>Quieres ser parte de nuestro equipo?</h2>
-        <p>Rellena este formulario!</p>
-        <button>Presiona aqui!</button>
-      </div>
       <Footer />
     </main>
   );

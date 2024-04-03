@@ -83,3 +83,8 @@ main {
     }
 }
 
+/* Estilos para los iconos */
+.icon {
+    cursor: pointer;
+}
+
