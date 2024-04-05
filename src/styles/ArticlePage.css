@@ -1,0 +1,46 @@
+article {
+    position: relative;
+    font-size: 1rem;
+    margin: 140px auto 0 auto;
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+    & h5{
+        font-size: .7rem;
+        margin: 5px auto;
+        color: var(--Light-Gray);
+    }
+    & .info {
+        margin: 30px 0;
+        & p{
+            text-wrap: pretty;
+            margin: 10px 0;
+        }
+    }
+    & .info-img{
+        display: block;
+        margin: 30px 0;
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    & button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 50px;
+        font-size: .9rem;
+        background-color: var(--AccentColor);
+        gap: 10px;
+        border: none;
+        border-radius: 50px;
+        color: var(--PrimaryColor);
+        margin: 0 auto;
+        cursor: pointer;
+        &:hover{
+            background-color: var(--HoverColor);
+        }
+    }
+}

@@ -74,11 +74,11 @@ main {
         padding: 10px 20px;
         border-radius: 5px;
         border: 1px solid var(--SecondaryColor);
-        background-color: rgb(255, 167, 3);
+        background-color: var(--AcentColor);
         color: white;
         cursor: pointer;
         &:hover {
-            background-color: rgb(255, 167, 3, 0.8);
+            background-color: var(--hoverColor);
         }
     }
 }

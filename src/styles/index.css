@@ -1,6 +1,9 @@
 :root {
-    --PrimaryColor: #fdfdfd;
+    --PrimaryColor: #fffaf4;
     --SecondaryColor: #3e404c;
+    --Light-Gray: #949897;
+    --AccentColor: rgb(255, 163, 3);
+    --HoverColor: rgb(255, 167, 3, 0.8);
 }
 
 * {

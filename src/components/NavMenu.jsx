@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "../components/Link";
 import "../styles/NavMenu.css";
 import CloseMenu from "./svg/CloseMenu";
 import Facebook from "./svg/Facebook";
@@ -16,13 +16,13 @@ function NavMenu() {
         </div>
         <ul className="links">
           <li>
-            <a href="#about">Misión y Vision</a>
+            <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="Diversidad">Acerca de Diversidad Funcional</Link>
+            <Link to="/article">Acerca de Diversidad Funcional</Link>
           </li>
           <li className="links-subTitle">
-            <li><a className="activities" href="">Actividades <ChevronIcon className="chevron" stroke="black"/></a></li>
+            <li><a className="activities" href="/activities">Actividades <ChevronIcon className="chevron" stroke="black"/></a></li>
             <ul>
               <li><a href="#">2020</a></li>
               <li><a href="#">2023</a></li>
@@ -30,13 +30,13 @@ function NavMenu() {
             </ul>
           </li>
           <li>
-            <a href="#organigrama">Organigrama</a>
+            <Link to="/organigram">Organigrama</Link>
           </li>
           <li>
-            <a href="#contact">Contacto</a>
+            <Link to="/contact">Contacto</Link>
           </li>
           <li>
-            <a href="#documents">Documentos ONG</a>
+            <Link to="/documents">Documentos ONG</Link>
           </li>
         </ul>
         <div className="front-contact">
