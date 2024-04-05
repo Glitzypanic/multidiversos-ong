@@ -1,13 +1,15 @@
+import "../styles/Page404.css"
+
 import { Link } from "../components/Link.jsx";
 
 export default function Page404() {
   return (
-    <>
-      <div>
+    <article>
+      <div className="error-message">
         <h1>404</h1>
-        <p>Page not found</p>
+        <p>Pagina no encontrada :(</p>
       </div>
-      <Link to="/">Volver al Inicio</Link>
-    </>
+      <Link to="/" className="error-link">Volver al Inicio</Link>
+    </article>
   );
 }

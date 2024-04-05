@@ -1,0 +1,23 @@
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--PrimaryColor);
+    color: var(--SecondaryColor);
+    & .error-message {
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    & .error-link{
+        text-decoration: none;
+        color: var(--PrimaryColor);
+        font-size: 1rem;
+        background-color: var(--AccentColor);
+        padding: 10px;
+        border-radius: 30px;
+    }
+}
