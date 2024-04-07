@@ -2,7 +2,7 @@ import "../styles/Footer.css";
 import Logo from "../assets/logo.webp";
 import Facebook from "./svg/Facebook.jsx";
 import Instagram from "./svg/Instagram.jsx";
-import Mail from "./svg/Mail.jsx";
+import Mail from "./svg/Email.jsx";
 import WhatsApp from "./svg/Whatsapp.jsx";
 
 function Footer() {

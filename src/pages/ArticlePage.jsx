@@ -13,14 +13,14 @@ function Diversidad() {
     <>
       <Header />
       <NavMenu />
-      <div className="banner">
+      <div className="banner-article">
         <img src={DiversidadImg} alt="Banner" />
       </div>
-      <article>
-        <h5>ARTICULO</h5>
-        <h1>Diversidad funcional</h1>
+      <article className="diversidad-container">
+        <h5 className="diversidad-subTitle">ARTICULO</h5>
+        <h1 className="diversidad-title">Diversidad funcional</h1>
 
-        <div className="info">
+        <div className="diversidad-info">
           <p>
             El cambio de lenguaje se basa en el modelo de la diversidad
             postulado por Javier Romañach y Agustina Palacios el año 2006, el
@@ -48,7 +48,7 @@ function Diversidad() {
           </p>
         </div>
 
-        <div className="info-img">
+        <div className="diversidad-info-personas">
           <img src={javierImg} alt="Foto de Javier Romañach" />
           <img src={agustinaImg} alt="Foto de Agustina Palacios" />
         </div>

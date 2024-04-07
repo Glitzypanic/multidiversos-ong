@@ -1,0 +1,70 @@
+.organigrama-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 140px auto 0 auto;
+    width: 90%;
+    background-color: white;
+    & .organigrama-title {
+        font-size: 1.5rem;
+        margin-inline: auto;
+        margin-top: 15px;
+        text-align: center;
+    }
+    & .organigrama-img{
+        margin: 15px 15px;
+        border-radius: 10px;
+        border: 2px solid var(--Light-Gray);
+        cursor: pointer;
+    }
+    & .organigrama-subTitle{
+        text-align: center;
+    }
+}
+
+.organigrama-areas {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+    & .grid{
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #F4F0ED;
+        & p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        & .grid-title{
+            color: var(--Light-Gray);
+            text-transform: uppercase;
+            font-size: .8rem;
+        }
+    }
+    & .grid-1{
+        /* grid-row: 1 / 3;
+        height: 500px; */
+    }
+    & .grid-2{
+        /* grid-row: 2 / 3;
+        height: 300px; */
+    }
+    & .grid-3{
+        /* grid-row: 0 / 3;
+        height: 200px; */
+    }
+}
+
+.banner-principal{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+.banner-principal img{
+    max-width: 1440px;
+    min-height: 200px;
+    width: 100%;
+}

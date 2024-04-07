@@ -1,23 +1,23 @@
-article {
+.diversidad-container {
     position: relative;
     font-size: 1rem;
     margin: 140px auto 0 auto;
     background-color: white;
     width: 90%;
     padding: 20px;
-    & h5{
+    & .diversidad-subTitle{
         font-size: .7rem;
         margin: 5px auto;
         color: var(--Light-Gray);
     }
-    & .info {
+    & .diversidad-info {
         margin: 30px 0;
         & p{
             text-wrap: pretty;
             margin: 10px 0;
         }
     }
-    & .info-img{
+    & .diversidad-info-personas{
         display: block;
         margin: 30px 0;
         & img {
@@ -43,4 +43,16 @@ article {
             background-color: var(--HoverColor);
         }
     }
+}
+
+.banner-article{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+.banner-article img{
+    max-width: 1440px;
+    min-height: 200px;
+    width: 100%;
 }

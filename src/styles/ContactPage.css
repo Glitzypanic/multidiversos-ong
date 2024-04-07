@@ -1,0 +1,27 @@
+.banner img {
+    max-width: 1440px;
+    min-height: 200px;
+    width: 100%;
+}
+
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    background-color: red;
+    place-items: center;
+    height: 220px;
+    & div{
+        background-color: white;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        width: 80px;
+        height: 80px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+}
