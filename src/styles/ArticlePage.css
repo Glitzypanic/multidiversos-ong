@@ -1,14 +1,14 @@
 .diversidad-container {
     position: relative;
-    font-size: 1rem;
+    font-size: var(--fs-md);
     margin: 140px auto 0 auto;
-    background-color: white;
+    background-color: var(--clr-neutral-100);
     width: 90%;
     padding: 20px;
     & .diversidad-subTitle{
-        font-size: .7rem;
+        font-size: var(--fs-xs);
         margin: 5px auto;
-        color: var(--Light-Gray);
+        color: var(--clr-neutral-400);
     }
     & .diversidad-info {
         margin: 30px 0;
@@ -31,16 +31,16 @@
         justify-content: center;
         width: 90%;
         height: 50px;
-        font-size: .9rem;
-        background-color: var(--AccentColor);
+        font-size: var(--fs-md);
+        background-color: var(--clr-accent-500);
         gap: 10px;
         border: none;
         border-radius: 50px;
-        color: var(--PrimaryColor);
+        color: var(--clr-neutral-100);
         margin: 0 auto;
         cursor: pointer;
         &:hover{
-            background-color: var(--HoverColor);
+            background-color: var(--clr-hover-500);
         }
     }
 }

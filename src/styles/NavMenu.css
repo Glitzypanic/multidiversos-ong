@@ -39,7 +39,7 @@ nav {
       & ul {
         display: none;
         list-style: none;
-        font-size: .8rem;
+        font-size: var(--fs-sm);
         padding: 0 15px;
       }
       & li {

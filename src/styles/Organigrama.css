@@ -6,7 +6,7 @@
     width: 90%;
     background-color: white;
     & .organigrama-title {
-        font-size: 1.5rem;
+        font-size: var(--fs-xxl);
         margin-inline: auto;
         margin-top: 15px;
         text-align: center;
@@ -40,7 +40,7 @@
         & .grid-title{
             color: var(--Light-Gray);
             text-transform: uppercase;
-            font-size: .8rem;
+            font-size: var(--fs-sm);
         }
     }
     & .grid-1{

@@ -16,7 +16,7 @@ main {
     padding: 0 20px;
     & h1 {
         margin: 15px auto;
-        font-size: 2rem;
+        font-size: var(--fs-xxxl);
     }
     & p {
         text-align: left;
@@ -34,11 +34,11 @@ main {
     & .title{
         & h2{
             margin: 15px auto;
-            font-size: 1.5rem;
+            font-size: var(--fs-xxl);
         }
         & h4{
-            font-size: 1.2rem;
-            color: #242422;
+            font-size: var(--fs-xl);
+            color: var(--clr-neutral-900);
             margin-bottom: 10px;
             font-weight: lighter;
         }
@@ -47,7 +47,7 @@ main {
 
 .form {
     display: flex;
-    background-color: rgb(216, 214, 212);
+    background-color: var(--clr-neutral-200);
     height: 130px;
     justify-content: center;
     padding: 10px;
@@ -57,7 +57,7 @@ main {
     align-items: center;
     margin-bottom: 50px;
     & h2{
-        font-size: 1.1rem;
+        font-size: var(--fs-lg);
     }
     & p{
         margin: 5px 0;
@@ -66,12 +66,12 @@ main {
         margin-top: 10px;
         padding: 10px 20px;
         border-radius: 5px;
-        border: 1px solid var(--SecondaryColor);
-        background-color: var(--AccentColor);
-        color: white;
+        border: 1px solid var(--clr-secondary-700);
+        background-color: var(--clr-accent-500);
+        color: var(--clr-neutral-100);
         cursor: pointer;
         &:hover {
-            background-color: var(--hoverColor);
+            background-color: var(--clr-hover-500);
         }
     }
 }

@@ -28,7 +28,7 @@
     }
     & h5 {
       margin-top: 5px;
-      font-size: .8rem;
+      font-size: var(--fs-sm);
       color: #3e404c;
       font-weight: lighter;
     }

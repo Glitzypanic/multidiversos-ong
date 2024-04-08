@@ -1,9 +1,31 @@
 :root {
-    --PrimaryColor: #fffaf4;
-    --SecondaryColor: #3e404c;
-    --Light-Gray: #949897;
-    --AccentColor: rgb(255, 163, 3);
-    --HoverColor: rgb(255, 167, 3, 0.8);
+    --clr-Primary-200: hsl(33, 100%, 98%);
+    --clr-Secondary-700: hsl(231, 10%, 27%);
+    
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-200: hsl(26, 24%, 94%);
+    --clr-neutral-400: hsl(165, 2%, 59%);
+    --clr-neutral-600: hsl(231, 7%, 37%);
+    --clr-neutral-900: hsl(60, 3%, 14%);
+    
+    --clr-accent-500: hsl(38, 100%, 51%);
+    --clr-hover-500: hsla(39, 100%, 51%, 0.8);
+
+    --ff-base: 'Exo', sans-serif;
+
+    --ff-regular: 400;
+    --ff-bold: 700;
+
+    --fs-xxs: 0.625rem;
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.25rem;
+    --fs-xxl: 1.5rem;
+    --fs-xxxl: 2rem;
+    --fs-xxxxl: 2.5rem;
+    --fs-xxxxxl: 3rem;
 }
 
 * {
@@ -13,11 +35,11 @@
 }
 
 body {
-    background-color: var(--PrimaryColor);
-    font-family: 'Exo', sans-serif;
+    background-color: var(--clr-Primary-200);
+    font-family: var(--ff-base);
     max-width: 1440px;
     min-width: 375px;
-    font-size: 0.875rem;
+    font-size: var(--fs-sm);
     margin: 0 auto;
-    color: var(--SecondaryColor);
+    color: var(--clr-Secondary-700);
 }
