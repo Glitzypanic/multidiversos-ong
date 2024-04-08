@@ -16,22 +16,25 @@
     --ff-regular: 400;
     --ff-bold: 700;
 
-    --fs-xxs: 0.625rem;
-    --fs-xs: 0.75rem;
-    --fs-sm: 0.875rem;
-    --fs-md: 1rem;
-    --fs-lg: 1.125rem;
-    --fs-xl: 1.25rem;
-    --fs-xxl: 1.5rem;
-    --fs-xxxl: 2rem;
-    --fs-xxxxl: 2.5rem;
-    --fs-xxxxxl: 3rem;
+    --fs-xxs: 0.625rem; /* 10px */ 
+    --fs-xs: 0.75rem; /* 12px */
+    --fs-sm: 0.875rem;  /* 14px */
+    --fs-md: 1rem; /* 16px */
+    --fs-lg: 1.125rem; /* 18px */
+    --fs-xl: 1.25rem; /* 20px */
+    --fs-xxl: 1.5rem; /* 24px */
+    --fs-xxxl: 2rem; /* 32px */
+    --fs-xxxxl: 2.5rem; /* 40px */
+    --fs-xxxxxl: 3rem; /* 48px */
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    & p {
+        font-size: var(--fs-sm);
+    }
 }
 
 body {
