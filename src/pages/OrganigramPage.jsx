@@ -20,6 +20,7 @@ export default function OrganigramPage() {
         <img src={DiversidadImg} alt="Banner Multidiversos" />
       </div>
       <section className="organigrama-container">
+        <h5 className="organigrama-tag">TRABAJO</h5>
         <h1 className="organigrama-title">Organigrama</h1>
         <img
           className="organigrama-img"

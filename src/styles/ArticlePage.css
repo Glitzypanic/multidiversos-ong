@@ -8,6 +8,7 @@
     & .diversidad-subTitle{
         font-size: var(--fs-xs);
         margin: 5px auto;
+        width: 100%;
         color: var(--clr-neutral-400);
     }
     & .diversidad-info {
@@ -29,8 +30,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 90%;
-        height: 50px;
+        width: 60%;
+        height: 40px;
         font-size: var(--fs-md);
         background-color: var(--clr-accent-500);
         gap: 10px;
