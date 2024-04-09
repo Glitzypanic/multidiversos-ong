@@ -15,6 +15,7 @@ const lazyContactPage = lazy(() => import("./pages/ContactPage.jsx"));
 const lazyDocumentsPage = lazy(() => import("./pages/DocumentsPage.jsx")); 
 
 function App() {
+
   return (
     <main>
       <Suspense fallback={null}>

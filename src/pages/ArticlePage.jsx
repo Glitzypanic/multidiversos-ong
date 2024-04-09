@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import NavMenu from "../components/NavMenu";
-import PdfIcon from "../components/svg/PdfIcon";
+import DownloadIcon from "../components/svg/Download";
 import javierImg from "../../public/img/personas/javier.webp";
 import agustinaImg from "../../public/img/personas/agustina.webp";
 import DiversidadImg from "../assets/diversidad.webp";
@@ -48,14 +48,15 @@ function Diversidad() {
           </p>
         </div>
 
+        <button className="diversidad-info-button">
+          Modelo de la Diversidad <DownloadIcon />
+        </button>
+
         <div className="diversidad-info-personas">
           <img src={javierImg} alt="Foto de Javier Romañach" />
           <img src={agustinaImg} alt="Foto de Agustina Palacios" />
         </div>
 
-        <button>
-          <PdfIcon /> Modelo de la Diversidad
-        </button>
       </article>
       <Footer />
     </>

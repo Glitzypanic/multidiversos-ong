@@ -7,11 +7,16 @@ import WhatsApp from "./svg/Whatsapp";
 import ChevronIcon from "./svg/ChevronUp";
 
 function NavMenu() {
+
+  const closeMenu = () => {
+    document.querySelector(".nav-menu").classList.remove("nav-menu-active");
+  }
+
   return (
-    <nav id="navbar" hidden>
+    <nav className="nav-menu">
       <div className="back"></div>
       <div className="front">
-        <div className="front-close-menu">
+        <div className="front-close-menu" onClick={closeMenu}>
           <CloseMenu stroke="#3e404c" />
         </div>
         <ul className="links">
