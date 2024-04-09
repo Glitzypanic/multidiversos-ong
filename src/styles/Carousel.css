@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: fit-content;
 }
 
 .slide {
@@ -13,7 +13,7 @@
     width: 100%;
     height: 100%;
     & img{
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 
@@ -22,8 +22,11 @@
 }  
 
 .slide-description {
-    margin: px auto;
-    color: var(--clr-neutral-600);
+    position: relative;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    color: var(--clr-neutral-400);
     font-style: italic;
     font-size: var(--fs-sm);
 }
@@ -56,7 +59,7 @@
 }
 
 .indicator {
-    margin: 13px 5px;
+    margin: 10px 5px;
     background-color: var(--clr-neutral-100);
     height: 0.5rem;
     width: 0.5rem;
