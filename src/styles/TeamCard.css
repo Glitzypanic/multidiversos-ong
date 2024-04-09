@@ -10,8 +10,8 @@
     height: 500px;
     margin: 0 auto;
     display: flex;
-    background-color: rgb(216, 214, 212);
-    color: #3e404c;
+    background-color: var(--clr-neutral-200);
+    color: var(--clr-Principal-500);
     border-radius: 10px;
     flex-direction: column;
     padding: 15px;

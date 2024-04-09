@@ -1,0 +1,14 @@
+.focus-mision-card {
+    display: block;
+    padding: 15px;
+    margin: 0 auto 30px auto;
+    & .focus-mision-title {
+        margin: 5px auto 10px auto;
+        font-size: var(--fs-xl);
+    }
+    & .focus-mision-description {
+        font-size: var(--fs-sm);
+        margin-bottom: 10px;
+        text-wrap: pretty;
+    }
+}
