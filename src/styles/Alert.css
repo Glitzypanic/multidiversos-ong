@@ -1,0 +1,20 @@
+.alert {
+  position: fixed;
+  top: 60px;
+  right: 10px;
+  z-index: 1;
+  display: flex;
+  width: 60%;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  backdrop-filter: blur(20px);
+  background: var(--at-good);
+  & .alert-info {
+    color: var(--clr-Secondary-700);
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+}

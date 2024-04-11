@@ -11,7 +11,6 @@ const lazyHomePage = lazy(() => import("./pages/HomePage.jsx"));
 const lazyArticlePage = lazy(() => import("./pages/ArticlePage.jsx")); 
 const lazyActivitiesPage = lazy(() => import("./pages/ActivitiesPage.jsx")); 
 const lazyOrganigramPage = lazy(() => import("./pages/OrganigramPage.jsx")); 
-const lazyContactPage = lazy(() => import("./pages/ContactPage.jsx")); 
 const lazyDocumentsPage = lazy(() => import("./pages/DocumentsPage.jsx")); 
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
           <Route path="/article" Component={lazyArticlePage} />
           <Route path="/activities" Component={lazyActivitiesPage} />
           <Route path="/organigram" Component={lazyOrganigramPage} />
-          <Route path="/contact" Component={lazyContactPage} />
           <Route path="/documents" Component={lazyDocumentsPage} />
         </Router>
       </Suspense>

@@ -1,64 +1,46 @@
 .nav-menu {
   position: fixed;
-  z-index: 1;
   top: 0;
-  right: 0;
-  display: none;
-  height: 100vh;
+  z-index: 1;
   width: 100%;
-  & .back {
-    background-color: rgba(0, 0, 0, 0.499);
-    width: 50%;
+  height: 100%;
+  & .nav-back {
+    position: fixed;
+    background-color: var(--clr-neutral-950);
+    height: 100%;
+    width: 40%;
   }
-  & .front {
-    display: flex;
-    flex-direction: column;
+  & .nav-front {
+    position: fixed;
     padding: 20px;
-    width: 70%;
-    background-color: white;
-    & .front-close-menu {
+    background-color: var(--clr-neutral-100);
+    right: 0;
+    border: 1px solid black;
+    height: 100%;
+    width: 60%;
+    & .nav-closeIcon {
+      width: 100%;
       text-align: right;
     }
-    & .close-menu-icon {
-      cursor: pointer;
-    }
-    & .links {
-      margin-top: 30px;
+    & .nav-links {
       list-style: none;
-      & .links-subTitle {
-        display: flex;
-        flex-direction: column;
-        margin: 0 0;
-      }
-      & .activities {
-        display: flex;
-        align-items:  center;
-        gap: 5px;
-        width: fit-content;
-      }
-      & ul {
-        display: none;
-        list-style: none;
-        font-size: var(--fs-sm);
-        padding: 0 15px;
-      }
       & li {
-        margin-bottom: 10px;
+        margin: 0 0 10px 0;
         & a {
           text-decoration: none;
-          color: var(--SecondaryColor);
+          color: var(--clr-Secondary-700);
         }
       }
     }
-    & .front-contact {
-      position: absolute;
-      width: 48%;
+    & .nav-contact {
+      position: fixed;
       bottom: 50px;
-      & .contact-social{
-        list-style: none;
+      width: 50%;
+      .nav-socialMedia {
         display: flex;
+        list-style: none;
+        gap: 20px;
         justify-content: center;
-        gap: 10px;
       }
     }
   }

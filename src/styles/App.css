@@ -114,6 +114,52 @@ main {
   }
 }
 
+.contact-card {
+  display: flex;
+  background-color: var(--clr-neutral-200);
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  & .contact-title {
+    font-size: var(--fs-xl);
+  }
+  & .contact-description {
+    font-size: var(--fs-am);
+    text-align: center;
+    margin: 20px 0;
+  }
+  & .contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    font-size: var(--fs-sm);
+    border-radius: 5px;
+    border: none;
+    background-color: var(--clr-accent-500);
+    color: var(--clr-neutral-100);
+    cursor: pointer;
+    & .contact-ancord {
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--clr-neutral-100);
+    }
+    &:hover {
+      background-color: var(--clr-hover-500);
+    }
+  }
+}
+
 /* Estilos para los iconos */
 .icon {
   cursor: pointer;

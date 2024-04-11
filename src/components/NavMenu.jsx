@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "../components/Link";
 import "../styles/NavMenu.css";
 import CloseMenu from "./svg/CloseMenu";
@@ -7,58 +8,74 @@ import WhatsApp from "./svg/Whatsapp";
 import ChevronIcon from "./svg/ChevronUp";
 
 function NavMenu() {
+  const [displayStyle, setDisplayStyle] = useState('block');
 
-  const closeMenu = () => {
-    document.querySelector(".nav-menu").classList.remove("nav-menu-active");
-  }
+  const handleMenuClose = () => {
+    setDisplayStyle("none");
+  };
+
+  
 
   return (
-    <nav className="nav-menu">
-      <div className="back"></div>
-      <div className="front">
-        <div className="front-close-menu" onClick={closeMenu}>
-          <CloseMenu stroke="#3e404c" />
-        </div>
-        <ul className="links">
-          <li>
-            <Link to="/">Inicio</Link>
-          </li>
-          <li>
-            <Link to="/article">Acerca de Diversidad Funcional</Link>
-          </li>
-          <li className="links-subTitle">
-            <li><a className="activities" href="/activities">Actividades <ChevronIcon className="chevron" stroke="black"/></a></li>
-            <ul>
-              <li><a href="#">2020</a></li>
-              <li><a href="#">2023</a></li>
-              <li><a href="#">2024</a></li>
+    <>
+      <nav className="nav-menu"  style={{ display: displayStyle }}>
+        <div className="nav-back"></div>
+        <div className="nav-front">
+          <div className="nav-closeIcon">
+            <CloseMenu stroke="#3e404c" onClick={handleMenuClose} />
+          </div>
+          <ul className="nav-links">
+            <li>
+              <Link to="/">Inicio</Link>
+            </li>
+            <li>
+              <Link to="/article">Acerca de Diversidad Funcional</Link>
+            </li>
+            <li>
+              <a className="activities" href="/activities">
+                Actividades <ChevronIcon className="chevron" stroke="black" />
+              </a>
+            </li>
+            <ul className="nav-links">
+              <li>
+                <a href="#">2020</a>
+              </li>
+              <li>
+                <a href="#">2023</a>
+              </li>
+              <li>
+                <a href="#">2024</a>
+              </li>
             </ul>
-          </li>
-          <li>
-            <Link to="/organigram">Organigrama</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contacto</Link>
-          </li>
-          <li>
-            <Link to="/documents">Documentos ONG</Link>
-          </li>
-        </ul>
-        <div className="front-contact">
-          <ul className="contact-social">
-          <li>
-              <a href="#"><Facebook fill="#3e404c"/></a>
+            <li>
+              <Link to="/organigram">Organigrama</Link>
             </li>
             <li>
-              <a href="#"><Instagram stroke="#3e404c"/></a>
-            </li>
-            <li>
-              <a href="#"><WhatsApp stroke="#3e404c"/></a>
+              <Link to="/documents">Documentos ONG</Link>
             </li>
           </ul>
+          <div className="nav-contact">
+            <ul className="nav-socialMedia">
+              <li>
+                <a href="#">
+                  <Facebook fill="#3e404c" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <Instagram stroke="#3e404c" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <WhatsApp stroke="#3e404c" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </>
   );
 }
 

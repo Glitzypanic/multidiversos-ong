@@ -1,12 +1,8 @@
-function MenuIcon({ stroke }) {
-
-  const handleClick = () => {
-    
-  }
+function MenuIcon({ stroke, onClick }) {
 
   return (
     <svg
-    onClick={handleClick}
+      onClick={onClick}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -15,7 +11,7 @@ function MenuIcon({ stroke }) {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
-      className="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"
+      className="icon icon-tabler icons-tabler-outline icon-tabler-menu-2 menu-icon"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 6l16 0" />

@@ -1,15 +1,25 @@
 :root {
-    --clr-Primary-200: hsl(33, 100%, 98%);
+    --clr-Primary-200: hsl(30, 100%, 98%);
     --clr-Secondary-700: hsl(231, 10%, 27%);
     
     --clr-neutral-100: hsl(0, 0%, 100%);
     --clr-neutral-200: hsl(26, 24%, 94%);
+    --clr-neutral-250: hsla(26, 23%, 94%, 0.639);
+    --clr-neutral-350: hsla(26, 23%, 94%, 0.803);
     --clr-neutral-400: hsl(165, 2%, 59%);
     --clr-neutral-600: hsl(231, 7%, 37%);
     --clr-neutral-900: hsl(60, 3%, 14%);
+    --clr-neutral-950: hsla(60, 3%, 14%, 0.382);
+
     
-    --clr-accent-500: hsl(38, 100%, 51%);
-    --clr-hover-500: hsla(39, 100%, 51%, 0.8);
+    /* --clr-accent-500: hsl(38, 100%, 51%); */
+    --clr-accent-500: hsl(212, 38%, 50%);
+    --clr-hover-500: hsl(213, 45%, 65%);
+
+    /* Alerts colors */
+    --at-good: hsla(137, 43%, 79%, 0.705);
+    --at-good-dark: hsla(137, 49%, 35%, 0.705);
+    --at-bad: hsla(0, 100%, 50%, 0.705);
 
     --ff-base: 'Exo', sans-serif;
 
@@ -34,6 +44,7 @@
     box-sizing: border-box;
     & p {
         font-size: var(--fs-sm);
+        line-height: 1.15rem;
     }
 }
 

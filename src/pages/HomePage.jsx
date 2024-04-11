@@ -8,10 +8,12 @@ import NavMenu from "../components/NavMenu";
 import Footer from "../components/Footer";
 import MisionIcon from "../assets/mision.svg";
 import VisionIcon from "../assets/vision.svg";
+import EmailIcon from "../assets/email.svg";
 import ObjetivoIcon from "../assets/objetivogeneral.svg";
 import Mision from "../components/Mision";
-import ExternalLInkIcon from "../components/svg/ExternalLink"
+import ExternalLInkIcon from "../components/svg/ExternalLink";
 import JoinUsIcon from "../assets/joinus.svg";
+import WhatsappIcon from "../components/svg/Whatsapp";
 
 export default function HomePage() {
   return (
@@ -103,7 +105,27 @@ export default function HomePage() {
             funcional en Valparaíso y Viña del Mar.
           </p>
           <button className="joinUs-button">
-            <a className="joinUs-ancord" href="">Unirse <ExternalLInkIcon/></a>
+            <a
+              className="joinUs-ancord"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf1rxnHyrXPMY34KTdDkqZ7wJRnA3r3-v56oDhNDDZef-gIuA/viewform"
+              target="_blank"
+            >
+              Unirse <ExternalLInkIcon />
+            </a>
+          </button>
+        </div>
+        <div className="contact-card">
+          <h2 className="contact-title">Tienes alguna pregunta?</h2>
+          <img src={EmailIcon} alt="" />
+          <p className="contact-description">
+            ¿Quieres hablar con nosotros? ¡Genial! Estamos aquí para responder
+            tus preguntas, recibir tus comentarios y ayudarte en lo que
+            necesites. ¡No dudes en contactarnos!
+          </p>
+          {/* <Form /> */}
+          <button className="contact-button" onClick={() => window.open('https://wa.me/+56942596966', '_blank')}>
+            <WhatsappIcon stroke="white"/>
+            Chat en WhatsApp
           </button>
         </div>
       </section>

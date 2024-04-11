@@ -1,5 +1,6 @@
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   background-color: var(--clr-accent-500);
@@ -7,26 +8,37 @@ footer {
   text-align: center;
   padding: 10px;
   width: 100%;
-  height: 150px;
   & .footer-logo {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    align-items: center;
     font-weight: bolder;
     & img {
-      height: 115px;
-      width: 115px;
+      height: 100px;
+      width: 100px;
     }
     & span {
-      font-size: var(--fs-xs);
+      font-size: var(--fs-md);
     }
   }
+
+  & .footer-social-line {
+    display: block;
+    border-bottom: 1px solid var(--clr-neutral-100);
+    margin: 5px auto;
+    width: 60%;
+  }
+
   & .footer-social {
-    margin-right: 30px;
+    margin: 5px 0;
+    font-size: var(--fs-sm);
     & ul {
       list-style: none;
       display: flex;
       margin-top: 10px;
       justify-content: space-between;
+      gap: 10px;
       & img {
         cursor: pointer;
         &:hover {

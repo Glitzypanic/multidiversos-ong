@@ -23,7 +23,8 @@
       justify-content: center;
       padding: 10px;
       color: var(--clr-Primary-700);
-      background-color: var(--clr-neutral-200);
+      background-color: var(--clr-neutral-250);
+      backdrop-filter: blur(15px);
       width: 70%;
       height: 70px;
       position: absolute;

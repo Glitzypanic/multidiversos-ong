@@ -4,6 +4,8 @@ import Facebook from "./svg/Facebook.jsx";
 import Instagram from "./svg/Instagram.jsx";
 import Mail from "./svg/Email.jsx";
 import WhatsApp from "./svg/Whatsapp.jsx";
+import XIcon from "./svg/XIcon.jsx";
+import Youtube from "./svg/Youtube.jsx";
 
 function Footer() {
   return (
@@ -12,6 +14,7 @@ function Footer() {
           <img src={Logo} alt="Logo MULTIDIVERSOS" />
           <span>ONG MULTIDIVERSOS</span>
         </div>
+          <span className="footer-social-line"> </span>
         <div className="footer-social">
           <h3>Redes Sociales</h3>
           <ul>
@@ -27,8 +30,15 @@ function Footer() {
             <li>
               <Mail stroke="#fdfdfd"/>
             </li>
+            <li>
+              <XIcon stroke="#fdfdfd"/>
+            </li>
+            <li>
+              <Youtube stroke="#fdfdfd"/>
+            </li>
           </ul>
         </div>
+          <span className="footer-social-line"> </span>
     </footer>
   );
 }
