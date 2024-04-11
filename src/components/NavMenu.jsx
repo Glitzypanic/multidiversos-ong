@@ -8,17 +8,22 @@ import WhatsApp from "./svg/Whatsapp";
 import ChevronIcon from "./svg/ChevronUp";
 
 function NavMenu() {
-  const [displayStyle, setDisplayStyle] = useState('block');
+  const [displayStyle, setDisplayStyle] = useState("block");
+  const [isChevronRotated, setIsChevronRotated] = useState(false);
+  const [isActivitiesVisible, setIsActivitiesVisible] = useState(false);
 
   const handleMenuClose = () => {
     setDisplayStyle("none");
   };
 
-  
+  const handleChevronClick = () => {
+    setIsChevronRotated(!isChevronRotated);
+    setIsActivitiesVisible(!isActivitiesVisible);
+  }
 
   return (
     <>
-      <nav className="nav-menu"  style={{ display: displayStyle }}>
+      <nav className="nav-menu" style={{ display: displayStyle }}>
         <div className="nav-back"></div>
         <div className="nav-front">
           <div className="nav-closeIcon">
@@ -31,19 +36,17 @@ function NavMenu() {
             <li>
               <Link to="/article">Acerca de Diversidad Funcional</Link>
             </li>
-            <li>
-              <a className="activities" href="/activities">
-                Actividades <ChevronIcon className="chevron" stroke="black" />
+            <ul className="nav-links activities">
+              <a onClick={handleChevronClick}>
+                Actividades <ChevronIcon stroke="black" onClick={handleChevronClick} style={{ transform: isChevronRotated ? 'rotate(180deg)' : 'none' }}/>
               </a>
-            </li>
-            <ul className="nav-links">
-              <li>
+              <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
                 <a href="#">2020</a>
               </li>
-              <li>
+              <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
                 <a href="#">2023</a>
               </li>
-              <li>
+              <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
                 <a href="#">2024</a>
               </li>
             </ul>

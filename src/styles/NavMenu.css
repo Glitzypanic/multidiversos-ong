@@ -15,7 +15,6 @@
     padding: 20px;
     background-color: var(--clr-neutral-100);
     right: 0;
-    border: 1px solid black;
     height: 100%;
     width: 60%;
     & .nav-closeIcon {
@@ -24,8 +23,24 @@
     }
     & .nav-links {
       list-style: none;
+      & .activities {
+        display: block;
+        & a {
+          text-decoration: none;
+          color: var(--clr-Secondary-700);
+          display: flex;
+          gap: 5px;
+          align-items: center;
+          cursor: pointer;
+        }
+        & li {
+          display: block;
+          margin-top: 10px;
+          padding: 0 0 0 5px;
+        }
+      }
       & li {
-        margin: 0 0 10px 0;
+        margin: 10px 0 10px 0;
         & a {
           text-decoration: none;
           color: var(--clr-Secondary-700);
@@ -45,3 +60,4 @@
     }
   }
 }
+
