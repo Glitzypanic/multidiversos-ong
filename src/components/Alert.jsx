@@ -1,5 +1,5 @@
 import CheckIcon from "./svg/Check";
-import "../styles/Alert.css";
+import "../styles/components_style/Alert.css";
 
 function Alert({ message }) {
   return (

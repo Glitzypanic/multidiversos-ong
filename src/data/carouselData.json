@@ -202,6 +202,65 @@
       "alt": "Image 5 for carousel",
       "description": "Taller de uso de lenguaje en TSUV"
     }
+  ], 
+  "carousel2020": [
+    {
+      "src": "public/img/carousel/carousel2020-1.webp",
+      "alt": "Imagen del conversatorio, hablemos de diversidad funcional",
+      "description": "Hablemos de diversidad funcional"
+    },
+    {
+      "src": "public/img/carousel/carousel2020-2.webp",
+      "alt": "Imagen del conversatorio, hablemos de diversidad funcional",
+      "description": "Hablemos de diversidad funcional"
+    },
+    {
+      "src": "public/img/carousel/carousel2020-3.webp",
+      "alt": "Imagen del conversatorio, hablemos de diversidad funcional",
+      "description": "Hablemos de diversidad funcional"
+    },
+    {
+      "src": "public/img/carousel/carousel2020-4.webp",
+      "alt": "Imagen del conversatorio, hablemos de diversidad funcional",
+      "description": "Hablemos de diversidad funcional"
+    },
+    {
+      "src": "public/img/carousel/carousel2020-5.webp",
+      "alt": "Imagen del conversatorio, hablemos de diversidad funcional",
+      "description": "Hablemos de diversidad funcional"
+    }
+  ],
+  "carousel2020_1": [
+    {
+      "src": "public/img/carousel/carousel2020-6.webp",
+      "alt": "Imagen del conversatorio, Por un proceso constituyente más inclusivo",
+      "description": "por un proceso constituyente más inclusivo"
+    },
+    {
+      "src": "public/img/carousel/carousel2020-7.webp",
+      "alt": "Imagen del conversatorio, Por un proceso constituyente más inclusivo",
+      "description": "por un proceso constituyente más inclusivo"
+    },
+    {
+      "src": "public/img/carousel/carousel2020-8.webp",
+      "alt": "Imagen del conversatorio, Por un proceso constituyente más inclusivo",
+      "description": "por un proceso constituyente más inclusivo"
+    },
+    {
+      "src": "public/img/carousel/carousel2020-9.webp",
+      "alt": "Imagen del conversatorio, Por un proceso constituyente más inclusivo",
+      "description": "por un proceso constituyente más inclusivo"
+    },
+    {
+      "src": "public/img/carousel/carousel2020-10.webp",
+      "alt": "Imagen del conversatorio, Por un proceso constituyente más inclusivo",
+      "description": "por un proceso constituyente más inclusivo"
+    },
+    {
+      "src": "public/img/carousel/carousel2020-11.webp",
+      "alt": "Imagen del conversatorio, Por un proceso constituyente más inclusivo",
+      "description": "por un proceso constituyente más inclusivo"
+    }
   ]
 
 }

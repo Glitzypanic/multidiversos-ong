@@ -1,4 +1,4 @@
-import "../styles/Footer.css";
+import "../styles/components_style/Footer.css";
 import Logo from "../assets/logo.webp";
 import Facebook from "./svg/Facebook.jsx";
 import Instagram from "./svg/Instagram.jsx";

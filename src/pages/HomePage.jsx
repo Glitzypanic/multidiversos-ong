@@ -1,4 +1,4 @@
-import { Carousel } from "../components/Carousel";
+import Carousel  from "../components/Carousel";
 import BannerImg from "../assets/banner.webp";
 import carouselData from "../data/carouselData.json";
 import teamData from "../data/teamData.json";

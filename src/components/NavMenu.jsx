@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "../components/Link";
-import "../styles/NavMenu.css";
+import "../styles/components_style/NavMenu.css";
 import CloseMenu from "./svg/CloseMenu";
 import Facebook from "./svg/Facebook";
 import Instagram from "./svg/Instagram";
@@ -41,13 +41,16 @@ function NavMenu() {
                 Actividades <ChevronIcon stroke="black" onClick={handleChevronClick} style={{ transform: isChevronRotated ? 'rotate(180deg)' : 'none' }}/>
               </a>
               <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
-                <a href="#">2020</a>
+                <Link to="/activities2020">2020</Link>
               </li>
               <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
-                <a href="#">2023</a>
+                <Link to="/activities2021">2021</Link>
               </li>
               <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
-                <a href="#">2024</a>
+                <Link to="/activities2022">2022</Link>
+              </li>
+              <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
+                <Link to="/activities2023">2023</Link>
               </li>
             </ul>
             <li>

@@ -9,7 +9,7 @@ import DiversidadImg from "../assets/diversidad.webp";
 import ComunityImg from "../assets/Community.svg";
 import SocialMediaImg from "../assets/social-media.svg";
 import ProjectsImg from "../assets/project.svg";
-import "../styles/Organigrama.css";
+import "../styles/pages_style/Organigrama.css";
 
 export default function OrganigramPage() {
   return (

@@ -1,4 +1,4 @@
-import "../styles/Page404.css"
+import "../styles/pages_style/Page404.css"
 
 import { Link } from "../components/Link.jsx";
 

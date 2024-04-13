@@ -4,7 +4,7 @@ import NavMenu from "../components/NavMenu";
 import Banner from "../assets/banner.webp";
 import CardDocument from "../components/CardDocument";
 
-import "../styles/DocumentsPage.css";
+import "../styles/pages_style/DocumentsPage.css";
 
 export default function DocumentsPage() {
   return (

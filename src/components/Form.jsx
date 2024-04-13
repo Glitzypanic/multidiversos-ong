@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../styles/Form.css'
+import '../styles/components_style/Form.css'
 import Alert from '../components/Alert';
 
 export default function Form () {

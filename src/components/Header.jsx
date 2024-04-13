@@ -3,7 +3,7 @@ import { Link } from "../components/Link.jsx";
 import Logo from "../assets/logo.webp";
 import NavMenu from "./NavMenu.jsx";
 import MenuIcon from "./svg/MenuIcon.jsx";
-import "../styles/Header.css";
+import "../styles/components_style/Header.css";
 
 function Header() {
 

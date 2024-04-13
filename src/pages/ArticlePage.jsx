@@ -6,7 +6,7 @@ import javierImg from "../../public/img/personas/javier.webp";
 import agustinaImg from "../../public/img/personas/agustina.webp";
 import DiversidadImg from "../assets/diversidad.webp";
 
-import "../styles/ArticlePage.css";
+import "../styles/pages_style/ArticlePage.css";
 
 function Diversidad() {
   return (

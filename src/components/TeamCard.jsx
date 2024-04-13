@@ -1,4 +1,4 @@
-import "../styles/TeamCard.css";
+import "../styles/components_style/TeamCard.css";
 
 function TeamCard({ data }) {
   return (

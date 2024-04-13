@@ -1,4 +1,4 @@
-import "../styles/Mision.css"
+import "../styles/components_style/Mision.css"
 
 function Mision({ src, title, description  }) {
   return (

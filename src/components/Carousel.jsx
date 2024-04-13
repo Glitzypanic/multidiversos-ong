@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ArrowLeftCircle, ArrowRightCircle } from "iconoir-react";
 
-import "../styles/Carousel.css";
+import "../styles/components_style/Carousel.css";
 
 export const Carousel = ({ data }) => {
   const [slide, setSlide] = useState(0);
@@ -42,3 +42,5 @@ export const Carousel = ({ data }) => {
     </div>
   );
 };
+
+export default Carousel;

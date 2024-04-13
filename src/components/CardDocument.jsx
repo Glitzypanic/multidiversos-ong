@@ -1,7 +1,7 @@
 import DownloadIcon from "./svg/Download";
 import ExternalLink from "./svg/ExternalLink";
 import DocumentImg from "../../public/img/documentsImg/pdf-multidiversos.png";
-import "../styles/CardDocument.css";
+import "../styles/components_style/CardDocument.css";
 
 function CardDocument() {
   return (

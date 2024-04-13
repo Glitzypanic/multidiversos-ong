@@ -1,0 +1,68 @@
+.activities-container {
+    position: relative;
+    font-size: var(--fs-md);
+    margin: 140px auto 0 auto;
+    background-color: var(--clr-neutral-100);
+    width: 90%;
+    padding: 20px;
+    & .activities-tag {
+        font-size: var(--fs-xs);
+        margin: 5px 0 0 0;
+        color: var(--clr-neutral-400);
+    }
+    & .activities-title {
+        font-size: var(--fs-xxl);
+        margin: 5px auto 20px auto;
+        width: 100%;
+    }
+    
+} & .activities-content {
+    & .activities-card {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        & .activities-card-title {
+            text-align: left;
+            font-size: var(--fs-xl);
+        }
+        & .activities-card-subTitle {
+            text-align: left;
+            font-size: var(--fs-md);
+            color: var(--clr-neutral-600);
+        }
+        & .activities-card-time {
+            text-align: left;
+            font-size: var(--fs-xs);
+            color: var(--clr-neutral-600);
+            display: flex;
+            align-items: center;
+            margin-top: 3px;
+            margin-bottom: 10px;
+            gap: 5px;
+        }
+        & .activities-card-info {
+            text-wrap: pretty;
+            margin: 5px 0;
+        }
+        & .activities-card-carousel {
+            margin: 20px 0;
+        }
+        & .activities-card-video {
+            width: 100%;
+            aspect-ratio: 16/9;
+        }
+    }
+    
+}
+
+.banner-article{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+.banner-article img{
+    max-width: 1440px;
+    min-height: 200px;
+    width: 100%;
+}
