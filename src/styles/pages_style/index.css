@@ -1,5 +1,5 @@
 :root {
-    --clr-Primary-200: hsl(30, 100%, 98%);
+    --clr-Primary-200: hsl(30, 100%, 95%);
     --clr-Secondary-700: hsl(231, 10%, 27%);
     
     --clr-neutral-100: hsl(0, 0%, 100%);
@@ -49,11 +49,27 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: space-between;
     background-color: var(--clr-Primary-200);
     font-family: var(--ff-base);
-    max-width: 1440px;
-    min-width: 375px;
+    min-width: 390px;
     font-size: var(--fs-sm);
     margin: 0 auto;
     color: var(--clr-Secondary-700);
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: var(--fs-md);
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: var(--fs-lg);
+    }
 }

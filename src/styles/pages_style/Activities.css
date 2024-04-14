@@ -1,7 +1,7 @@
 .activities-container {
     position: relative;
     font-size: var(--fs-md);
-    margin: 140px auto 0 auto;
+    margin: 200px auto 0 auto;
     background-color: var(--clr-neutral-100);
     width: 90%;
     padding: 20px;

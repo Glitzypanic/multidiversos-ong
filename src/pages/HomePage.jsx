@@ -1,5 +1,4 @@
 import Carousel  from "../components/Carousel";
-import BannerImg from "../assets/banner.webp";
 import carouselData from "../data/carouselData.json";
 import teamData from "../data/teamData.json";
 import TeamCard from "../components/TeamCard";
@@ -15,9 +14,7 @@ import WhatsappIcon from "../components/svg/Whatsapp";
 export default function HomePage() {
   return (
     <>
-      <div className="banner">
-        <img src={BannerImg} alt="Banner de Multidiversos" />
-      </div>
+      <div className="banner"></div>
 
       <section className="home-container">
         <section className="focus-container">

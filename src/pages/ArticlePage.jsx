@@ -1,16 +1,13 @@
 import DownloadIcon from "../components/svg/Download";
 import javierImg from "../../public/img/personas/javier.webp";
 import agustinaImg from "../../public/img/personas/agustina.webp";
-import DiversidadImg from "../assets/diversidad.webp";
 
 import "../styles/pages_style/ArticlePage.css";
 
 function Diversidad() {
   return (
     <>
-      <div className="banner-article">
-        <img src={DiversidadImg} alt="Banner" />
-      </div>
+      <div className="banner-article"></div>
       <article className="diversidad-container">
         <h5 className="diversidad-subTitle">ARTICULO</h5>
         <h1 className="diversidad-title">Diversidad funcional</h1>

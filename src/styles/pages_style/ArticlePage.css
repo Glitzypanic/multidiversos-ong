@@ -1,10 +1,10 @@
 .diversidad-container {
-    position: relative;
-    font-size: var(--fs-md);
-    margin: 140px auto 0 auto;
     background-color: var(--clr-neutral-100);
     width: 90%;
     padding: 20px;
+    position: relative;
+    margin: 200px auto 0 auto;
+    font-size: var(--fs-md);
     & .diversidad-subTitle{
         font-size: var(--fs-xs);
         margin: 5px auto;
@@ -50,10 +50,10 @@
     position: absolute;
     z-index: 0;
     top: 0;
-}
-
-.banner-article img{
-    max-width: 1440px;
-    min-height: 200px;
+    background-image: url("../../../src/assets/diversidad.webp");
+    background-size: cover;
+    background-position: center;
     width: 100%;
+    max-width: 1440px;
+    height: 300px;
 }

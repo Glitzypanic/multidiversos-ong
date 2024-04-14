@@ -1,4 +1,3 @@
-import BannerImg from "../assets/banner.webp";
 import CarouselData from "../data/carouselData.json";
 import Carousel from "../components/Carousel";
 import WatchIcon from "../components/svg/WatchIcon";
@@ -7,9 +6,7 @@ import "../styles/pages_style/Activities.css";
 export default function ActivitiesPage() {
   return (
     <>
-      <div className="banner">
-        <img src={BannerImg} alt="Banner de Multidiversos" />
-      </div>
+      <div className="banner"></div>
 
       <section className="activities-container">
         <h5 className="activities-tag">ACTIVIDADES</h5>

@@ -1,79 +1,66 @@
 .organigrama-container {
-    position: relative;
+  position: relative;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto 0 auto;
+  padding: 20px;
+  width: 90%;
+  background-color: var(--clr-neutral-100);
+  & .organigrama-tag {
+    font-size: var(--fs-xs);
+    margin: 5px 0 0 0;
+    color: var(--clr-neutral-400);
+  }
+  & .organigrama-title {
+    font-size: var(--fs-xxl);
+    margin: 5px 0 20px 0;
+    width: 100%;
+  }
+  & .organigrama-img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--clr-neutral-400);
+    cursor: pointer;
+  }
+  & .organigrama-subTitle {
     text-align: left;
-    display: flex;
-    flex-direction: column;
-    margin: 140px auto 0 auto;
-    padding: 20px;
-    width: 90%;
-    background-color: var(--clr-neutral-100);
-    & .organigrama-tag {
-        font-size: var(--fs-xs);
-        margin: 5px 0 0 0;
-        color: var(--clr-neutral-400);
-    }
-    & .organigrama-title {
-        font-size: var(--fs-xxl);
-        margin: 5px 0 20px 0;
-        width: 100%;
-    }
-    & .organigrama-img{
-        margin-bottom: 20px;
-        border-radius: 10px;
-        border: 2px solid var(--clr-neutral-400);
-        cursor: pointer;
-    }
-    & .organigrama-subTitle{
-        text-align: left;
-        font-size: var(--fs-xl);
-        margin-bottom: 20px;
-    }
+    font-size: var(--fs-xl);
+    margin-bottom: 20px;
+  }
 }
 
 .organigrama-areas {
-    /* display: grid;
+  /* display: grid;
     grid-template-columns: 1fr 1fr; */
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin: 10px;
-    & .grid{
-        padding: 20px;
-        border-radius: 10px;
-        background-color: #F4F0ED;
-        & p {
-            margin-top: 10px;
-            font-weight: bold;
-            font-size: var(--fs-md);
-        }
-        & .grid-title{
-            color: var(--clr-neutral-400);
-            text-transform: uppercase;
-            font-size: var(--fs-sm);
-        }
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px;
+  & .grid {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f0ed;
+    & p {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: var(--fs-md);
     }
-    & .grid-1{
-        /* grid-row: 1 / 3;
-        height: 500px; */
+    & .grid-title {
+      color: var(--clr-neutral-400);
+      text-transform: uppercase;
+      font-size: var(--fs-sm);
     }
-    & .grid-2{
-        /* grid-row: 2 / 3;
-        height: 300px; */
-    }
-    & .grid-3{
-        /* grid-row: 0 / 3;
-        height: 200px; */
-    }
+  }
 }
 
-.banner-principal{
-    position: absolute;
-    z-index: 0;
-    top: 0;
-}
-
-.banner-principal img{
-    max-width: 1440px;
-    min-height: 200px;
-    width: 100%;
+.banner-principal {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  background-image: url("../../../src/assets/diversidad.webp");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
 }

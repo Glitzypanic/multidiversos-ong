@@ -25,7 +25,7 @@
       color: var(--clr-Primary-700);
       background-color: var(--clr-neutral-250);
       backdrop-filter: blur(15px);
-      width: 70%;
+      width: 230px;
       height: 70px;
       position: absolute;
       margin: 240px auto 0 auto;
@@ -42,3 +42,4 @@
     
   }
 }
+

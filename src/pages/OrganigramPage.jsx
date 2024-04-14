@@ -1,5 +1,4 @@
 import OrganigramImg from "../assets/organigrama.png";
-import DiversidadImg from "../assets/diversidad.webp";
 import ComunityImg from "../assets/Community.svg";
 import SocialMediaImg from "../assets/social-media.svg";
 import ProjectsImg from "../assets/project.svg";
@@ -8,9 +7,7 @@ import "../styles/pages_style/Organigrama.css";
 export default function OrganigramPage() {
   return (
     <>
-      <div className="banner-principal">
-        <img src={DiversidadImg} alt="Banner Multidiversos" />
-      </div>
+      <div className="banner-principal"></div>
       <section className="organigrama-container">
         <h5 className="organigrama-tag">TRABAJO</h5>
         <h1 className="organigrama-title">Organigrama</h1>

@@ -1,4 +1,3 @@
-import Banner from "../assets/banner.webp";
 import CardDocument from "../components/CardDocument";
 
 import "../styles/pages_style/DocumentsPage.css";
@@ -6,9 +5,7 @@ import "../styles/pages_style/DocumentsPage.css";
 export default function DocumentsPage() {
   return (
     <>
-      <div className="banner">
-        <img src={Banner} alt="" />
-      </div>
+      <div className="banner"></div>
       <div className="document-container">
         <h5 className="document-container-tag">DOCUMENTOS</h5>
         <h1 className="document-container-title">Documentos</h1>
