@@ -78,3 +78,17 @@
 .indicator:hover {
     background-color: var(--clr-hover-500);
 }
+
+@media (min-width: 768px) {
+    .carousel {
+        width: 500px;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel {
+        width: 700px;
+        height: 100%;
+    }
+}

@@ -69,6 +69,7 @@
 
 @media (min-width: 768px) {
     .activities-container {
+        padding: 40px;
         & .activities-tag {
             font-size: var(--fs-sm);
         }

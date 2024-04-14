@@ -67,9 +67,3 @@ body {
         font-size: var(--fs-md);
     }
 }
-
-@media (min-width: 1024px) {
-    body {
-        font-size: var(--fs-lg);
-    }
-}

@@ -36,24 +36,29 @@ function NavMenu() {
               <Link to="/">Inicio</Link>
             </li>
             <li>
-              <Link to="/article">Acerca de Diversidad Funcional</Link>
+              <Link to="/article">Articulos</Link>
             </li>
             <ul className="nav-links activities">
               <a onClick={handleChevronClick}>
                 Actividades <ChevronIcon stroke="black" onClick={handleChevronClick} style={{ transform: isChevronRotated ? 'rotate(180deg)' : 'none' }}/>
               </a>
-              <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
-                <Link to="/activities2020">2020</Link>
-              </li>
-              <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
-                <Link to="/activities2021">2021</Link>
-              </li>
-              <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
-                <Link to="/activities2022">2022</Link>
-              </li>
-              <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
-                <Link to="/activities2023">2023</Link>
-              </li>
+              <div className="nav-link-container" style={{display: isActivitiesVisible ? 'block' : 'none'}}>
+                <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
+                  <Link to="/activities2020">2020</Link>
+                <span className="nav-link-line"></span>
+                </li>
+                <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
+                  <Link to="/activities2021">2021</Link>
+                <span className="nav-link-line"></span>
+                </li>
+                <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
+                  <Link to="/activities2022">2022</Link>
+                <span className="nav-link-line"></span>
+                </li>
+                <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
+                  <Link to="/activities2023">2023</Link>
+                </li>
+              </div>
             </ul>
             <li>
               <Link to="/organigram">Organigrama</Link>

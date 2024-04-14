@@ -60,6 +60,7 @@
 
 @media (min-width: 768px) {
     .diversidad-container {
+        padding: 40px;
         & .diversidad-subTitle {
             font-size: var(--fs-sm);
         }

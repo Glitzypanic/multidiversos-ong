@@ -57,6 +57,7 @@ export default function HomePage() {
             description="Nuestra misión es generar cambios en la sociedad a través de un trabajo interdisciplinario, promoviendo un cambio de lenguaje, fomentando una sociedad inclusiva basada en los Derechos Humanos, disminuyendo barreras, visibilizando situaciones que viven a diario las personas con diversidad funcional, a través de la educación y concientización de la sociedad. "
           />
           <Mision
+            id="vision"  
             src={VisionIcon}
             title="Vision"
             description="Nuestra visión es lograr una transformación social respecto a la mirada que se posee sobre la diversidad funcional, que permita una sociedad inclusiva, no discriminatoria y que acepte la diversidad.  Esperamos que a través de nuestro trabajo se hagan valer los derechos de todas las personas con diversidad funcional. "
@@ -90,38 +91,44 @@ export default function HomePage() {
           <TeamCard data={teamData.teamCuentas} />
         </section>
         
-        <div className="joinUs-card">
-          <h2 className="joinUs-title">Únete a nuestro equipo</h2>
-          <img src={JoinUsIcon} alt="" />
-          <p className="joinUs-description">
-            ¡Únete a Multidiversos! Somos una ONG compuesta por estudiantes y
-            profesionales de diversas áreas, comprometidos con la promoción de
-            la conciencia colectiva y la inclusión de personas con diversidad
-            funcional en Valparaíso y Viña del Mar.
-          </p>
-          <button className="joinUs-button">
-            <a
-              className="joinUs-ancord"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf1rxnHyrXPMY34KTdDkqZ7wJRnA3r3-v56oDhNDDZef-gIuA/viewform"
-              target="_blank"
-            >
-              Unirse <ExternalLInkIcon />
-            </a>
-          </button>
-        </div>
-        <div className="contact-card">
-          <h2 className="contact-title">Tienes alguna pregunta?</h2>
-          <img src={EmailIcon} alt="" />
-          <p className="contact-description">
-            ¿Quieres hablar con nosotros? ¡Genial! Estamos aquí para responder
-            tus preguntas, recibir tus comentarios y ayudarte en lo que
-            necesites. ¡No dudes en contactarnos!
-          </p>
-          {/* <Form /> */}
-          <button className="contact-button" onClick={() => window.open('https://wa.me/+56942596966', '_blank')}>
-            <WhatsappIcon stroke="white"/>
-            Chat en WhatsApp
-          </button>
+        <div className="joinUs-container">
+          <div className="joinUs-card">
+            <img src={JoinUsIcon} alt="" />
+            <div className="column-right">
+              <h2 className="joinUs-title">Únete a nuestro equipo</h2>
+              <p className="joinUs-description">
+                ¡Únete a Multidiversos! Somos una ONG compuesta por estudiantes y
+                profesionales de diversas áreas, comprometidos con la promoción de
+                la conciencia colectiva y la inclusión de personas con diversidad
+                funcional en Valparaíso y Viña del Mar.
+              </p>
+              <button className="joinUs-button">
+                <a
+                  className="joinUs-ancord"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf1rxnHyrXPMY34KTdDkqZ7wJRnA3r3-v56oDhNDDZef-gIuA/viewform"
+                  target="_blank"
+                >
+                  Unirse <ExternalLInkIcon />
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="contact-card">
+              <img src={EmailIcon} alt="" />
+            <div className="contact-column-right">
+              <h2 className="contact-title">Tienes alguna pregunta?</h2>
+              <p className="contact-description">
+                ¿Quieres hablar con nosotros? ¡Genial! Estamos aquí para responder
+                tus preguntas, recibir tus comentarios y ayudarte en lo que
+                necesites. ¡No dudes en contactarnos!
+              </p>
+              {/* <Form /> */}
+              <button className="contact-button" onClick={() => window.open('https://wa.me/+56942596966', '_blank')}>
+                <WhatsappIcon stroke="white"/>
+                Chat en WhatsApp
+              </button>
+            </div>
+          </div>
         </div>
       </section>
     </>

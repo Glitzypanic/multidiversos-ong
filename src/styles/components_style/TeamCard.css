@@ -62,3 +62,19 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .card-container {
+    & .card {
+      & .card-img {
+        width: 250px;
+        height: 320px;
+        object-fit: cover;
+        object-position: top;
+      }
+      & .card-info {
+        width: 230px;
+      }
+    }
+  }
+}
+

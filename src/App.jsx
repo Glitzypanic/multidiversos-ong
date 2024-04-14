@@ -6,7 +6,6 @@ import "./styles/pages_style/App.css";
 
 import { Router } from "./components/Router.jsx";
 import { Route } from "./components/Route.jsx";
-import NavMenu from "./components/NavMenu.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 
@@ -27,7 +26,6 @@ function App() {
   return (
     <MenuContext.Provider value={{ isMenuOpen, setIsMenuOpen }}>
       <Header />
-      <NavMenu />
       <main>
         <Suspense fallback={null}>
           <Router defaultComponent={lazyPage404}>

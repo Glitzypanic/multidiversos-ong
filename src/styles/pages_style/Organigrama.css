@@ -67,6 +67,7 @@
 
 @media (min-width: 768px) {
   .organigrama-container {
+    padding: 40px;
     & .organigrama-tag {
       font-size: var(--fs-sm);
     }

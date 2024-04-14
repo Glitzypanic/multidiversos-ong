@@ -180,6 +180,9 @@ main {
 
 /* Responsive Designe */
 @media (min-width: 768px) {
+  .home-container {
+    padding: 40px;
+  }
   .focus-container {
     & .focus-tag {
       font-size: var(--fs-sm);;
@@ -187,6 +190,7 @@ main {
   }
 
   .joinUs-card {
+    padding: 60px;
     & .joinUs-title {
       font-size: var(--fs-xxl);
     }
@@ -196,11 +200,106 @@ main {
   }
 
   .contact-card {
+    padding: 60px;
     & .contact-title {
       font-size: var(--fs-xxl);
     }
     & img {
       height: 350px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-container {
+    padding: 60px;
+  } 
+  .focus-container {
+    & .focus-tag {
+      font-size: var(--fs-md);
+    }
+  }
+  .about {
+    & .about-title {
+      font-size: var(--fs-xxxl);
+    }
+    & .about-description {
+      font-size: var(--fs-md);
+    }
+  }
+
+  .teamwork {
+    & .teamwork-container {
+      & .teamwork-title {
+        font-size: var(--fs-xxl);
+      }
+      & .teamwork-subTitle {
+        font-size: var(--fs-xl);
+      }
+    }
+  }
+
+  .joinUs-container {
+    & .joinUs-card {
+      width: 50%;
+      padding: 40px;
+      & img {
+        height: 350px;
+      }
+      & .joinUs-title {
+        font-size: var(--fs-xxl);
+      }
+      & .joinUs-description {
+        font-size: var(--fs-md);
+      }
+      & .joinUs-button {
+        font-size: var(--fs-md);
+      }
+    }
+    & .contact-card {
+      display: flex;
+      flex-direction: row;
+      padding: 40px;
+      width: 100%;
+      margin: 0 auto;
+      & img {
+        height: 250px;
+      }
+      & .contact-column-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      & .contact-title {
+        font-size: var(--fs-xxl);
+      }
+      & .contact-description {
+        font-size: var(--fs-md);
+      }
+      & .contact-button {
+        font-size: var(--fs-md);
+      }
+    }
+    & .joinUs-card {
+      flex-direction: row;
+      direction: rtl;
+      padding: 40px;
+      width: 100%;
+      margin: 10px auto;
+      & img {
+        height: 310px;
+      }
+      & .column-right {
+        display: flex;
+        direction: r;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & img {
+          height: 350px;
+        }
+      }
     }
   }
 }

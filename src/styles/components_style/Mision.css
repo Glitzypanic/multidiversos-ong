@@ -17,3 +17,24 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .focus-mision-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        & .focus-mision-img {
+            height: 300px;
+        }
+        & .focus-mision-title {
+            font-size: var(--fs-xxl);
+        }
+        & .focus-mision-description {
+            font-size: var(--fs-md);
+        }
+    }
+}
+
+#vision {
+    direction: rtl;
+}
