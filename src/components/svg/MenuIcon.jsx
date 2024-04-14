@@ -1,4 +1,4 @@
-function MenuIcon({ stroke, onClick }) {
+function MenuIcon({stroke, className, onClick}) {
 
   return (
     <svg
@@ -11,7 +11,7 @@ function MenuIcon({ stroke, onClick }) {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
-      className="icon icon-tabler icons-tabler-outline icon-tabler-menu-2 menu-icon"
+      className={className}
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 6l16 0" />

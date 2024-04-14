@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { MenuContext } from "../utils/MenuContext.js";
 import { useEffect, useRef } from "react";
 import { Link } from "../components/Link.jsx";
 import Logo from "../assets/logo.webp";
@@ -7,6 +9,12 @@ import "../styles/components_style/Header.css";
 
 function Header() {
 
+  const { setIsMenuOpen } = useContext(MenuContext);
+
+  const handleMenuOpen = () => {
+    setIsMenuOpen(true);
+  }
+  
   const headerRef = useRef(null);
 
   useEffect(() => {
@@ -32,7 +40,10 @@ function Header() {
           <img src={Logo} alt="Logo Multidiversos" />
           <h3>ONG MULTIDIVERSOS</h3>
         </Link>
-        <MenuIcon stroke="#3e404c"/>
+        <MenuIcon 
+          stroke="var(--clr-neutral-900)" className="menu-open"
+          onClick={handleMenuOpen}  
+        />
       </header>
       <NavMenu />
     </>

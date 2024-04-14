@@ -1,6 +1,3 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import NavMenu from "../components/NavMenu";
 import BannerImg from "../assets/banner.webp";
 import CarouselData from "../data/carouselData.json";
 import Carousel from "../components/Carousel";
@@ -10,8 +7,6 @@ import "../styles/pages_style/Activities.css";
 export default function ActivitiesPage() {
   return (
     <>
-      <Header />
-      <NavMenu />
       <div className="banner">
         <img src={BannerImg} alt="Banner de Multidiversos" />
       </div>
@@ -187,7 +182,6 @@ export default function ActivitiesPage() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

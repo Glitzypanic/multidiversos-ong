@@ -1,6 +1,3 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import NavMenu from "../components/NavMenu";
 import DownloadIcon from "../components/svg/Download";
 import javierImg from "../../public/img/personas/javier.webp";
 import agustinaImg from "../../public/img/personas/agustina.webp";
@@ -11,8 +8,6 @@ import "../styles/pages_style/ArticlePage.css";
 function Diversidad() {
   return (
     <>
-      <Header />
-      <NavMenu />
       <div className="banner-article">
         <img src={DiversidadImg} alt="Banner" />
       </div>
@@ -58,7 +53,6 @@ function Diversidad() {
         </div>
 
       </article>
-      <Footer />
     </>
   );
 }

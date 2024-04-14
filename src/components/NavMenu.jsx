@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { MenuContext } from "../utils/MenuContext";
 import { useState } from "react";
 import { Link } from "../components/Link";
 import "../styles/components_style/NavMenu.css";
@@ -8,12 +10,12 @@ import WhatsApp from "./svg/Whatsapp";
 import ChevronIcon from "./svg/ChevronUp";
 
 function NavMenu() {
-  const [displayStyle, setDisplayStyle] = useState("block");
+  const { isMenuOpen, setIsMenuOpen } = useContext(MenuContext);
   const [isChevronRotated, setIsChevronRotated] = useState(false);
   const [isActivitiesVisible, setIsActivitiesVisible] = useState(false);
 
   const handleMenuClose = () => {
-    setDisplayStyle("none");
+    setIsMenuOpen(false);
   };
 
   const handleChevronClick = () => {
@@ -23,7 +25,7 @@ function NavMenu() {
 
   return (
     <>
-      <nav className="nav-menu" style={{ display: displayStyle }}>
+      <nav className="nav-menu" style={{ display: isMenuOpen ? 'block' : 'none'}}>
         <div className="nav-back"></div>
         <div className="nav-front">
           <div className="nav-closeIcon">

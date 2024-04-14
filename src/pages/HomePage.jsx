@@ -3,9 +3,6 @@ import BannerImg from "../assets/banner.webp";
 import carouselData from "../data/carouselData.json";
 import teamData from "../data/teamData.json";
 import TeamCard from "../components/TeamCard";
-import Header from "../components/Header";
-import NavMenu from "../components/NavMenu";
-import Footer from "../components/Footer";
 import MisionIcon from "../assets/mision.svg";
 import VisionIcon from "../assets/vision.svg";
 import EmailIcon from "../assets/email.svg";
@@ -18,8 +15,6 @@ import WhatsappIcon from "../components/svg/Whatsapp";
 export default function HomePage() {
   return (
     <>
-      <Header />
-      <NavMenu />
       <div className="banner">
         <img src={BannerImg} alt="Banner de Multidiversos" />
       </div>
@@ -129,7 +124,6 @@ export default function HomePage() {
           </button>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

@@ -1,6 +1,3 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import NavMenu from "../components/NavMenu";
 import Banner from "../assets/banner.webp";
 import CardDocument from "../components/CardDocument";
 
@@ -9,8 +6,6 @@ import "../styles/pages_style/DocumentsPage.css";
 export default function DocumentsPage() {
   return (
     <>
-      <Header />
-      <NavMenu />
       <div className="banner">
         <img src={Banner} alt="" />
       </div>
@@ -24,7 +19,6 @@ export default function DocumentsPage() {
         <CardDocument />
         <CardDocument />
       </div>
-      <Footer />
     </>
   );
 }

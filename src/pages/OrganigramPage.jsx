@@ -1,10 +1,4 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import NavMenu from "../components/NavMenu";
 import OrganigramImg from "../assets/organigrama.png";
-// import Organigrama1 from "../assets/organigrama/2.png"
-// import Organigrama2 from "../assets/organigrama/3.png"
-// import Organigrama3 from "../assets/organigrama/4.png"
 import DiversidadImg from "../assets/diversidad.webp";
 import ComunityImg from "../assets/Community.svg";
 import SocialMediaImg from "../assets/social-media.svg";
@@ -14,8 +8,6 @@ import "../styles/pages_style/Organigrama.css";
 export default function OrganigramPage() {
   return (
     <>
-      <Header />
-      <NavMenu />
       <div className="banner-principal">
         <img src={DiversidadImg} alt="Banner Multidiversos" />
       </div>
@@ -27,16 +19,6 @@ export default function OrganigramPage() {
           src={OrganigramImg}
           alt="Imagen de un esquema"
         />
-        {/* <img
-          className="organigrama-img"
-          src={Organigrama2}
-          alt="Imagen de un esquema"
-        />
-        <img
-          className="organigrama-img"
-          src={Organigrama3}
-          alt="Imagen de un esquema"
-        /> */}
         <h2 className="organigrama-subTitle">Áreas de Trabajo</h2>
         <article className="organigrama-areas">
           <div className="grid grid-1">
@@ -67,7 +49,6 @@ export default function OrganigramPage() {
           </div>
         </article>
       </section>
-      <Footer />
     </>
   );
 }
