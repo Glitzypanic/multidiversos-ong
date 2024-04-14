@@ -75,18 +75,21 @@ export default function HomePage() {
           </div>
           <TeamCard data={teamData.team} />
         </section>
+
         <section className="teamwork">
           <div className="teamwork-container">
             <h4 className="teamwork-subTitle">Comisión de ética:</h4>
           </div>
           <TeamCard data={teamData.teamEtica} />
         </section>
+
         <section className="teamwork">
           <div className="teamwork-container">
             <h4 className="teamwork-subTitle">Comisión Revisora de Cuentas:</h4>
           </div>
           <TeamCard data={teamData.teamCuentas} />
         </section>
+        
         <div className="joinUs-card">
           <h2 className="joinUs-title">Únete a nuestro equipo</h2>
           <img src={JoinUsIcon} alt="" />

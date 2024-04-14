@@ -66,3 +66,25 @@
     min-height: 200px;
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    .activities-container {
+        & .activities-tag {
+            font-size: var(--fs-sm);
+        }
+    }
+
+    .activities-content {
+        & .activities-card {
+            & .activities-card-title {
+                font-size: var(--fs-xl);
+            }
+            & .activities-card-subTitle {
+                font-size: var(--fs-md);
+            }   
+            & .activities-card-time {
+                font-size: var(--fs-sm);
+            }
+        }
+    }
+}

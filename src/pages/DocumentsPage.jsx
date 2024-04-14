@@ -12,9 +12,11 @@ export default function DocumentsPage() {
         <p className="document-container-description">
           Aqui puedes encontrar material para ver y descargar.
         </p>
-        <CardDocument />
-        <CardDocument />
-        <CardDocument />
+        <div className="document-card-container">
+          <CardDocument />
+          <CardDocument />
+          <CardDocument />
+        </div>
       </div>
     </>
   );

@@ -64,3 +64,21 @@
   width: 100%;
   height: 300px;
 }
+
+@media (min-width: 768px) {
+  .organigrama-container {
+    & .organigrama-tag {
+      font-size: var(--fs-sm);
+    }
+  }
+
+  .organigrama-areas {
+    & .grid {
+      display: flex;
+      flex-direction: column;
+      & img {
+        height: 450px;
+      }
+    }
+  }
+}

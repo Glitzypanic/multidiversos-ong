@@ -1,7 +1,7 @@
 .card-container {
   display: flex;
-  text-align: left;;
-  gap: 40px;
+  text-align: left;
+  gap: 20px;
   border-radius: 10px;
   flex-direction: column;
   margin-top: 10px;
@@ -40,6 +40,25 @@
       }
     }
     
+  }
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    & .card {
+      & .card-img {
+        margin: 0 auto;
+        width: 200px;
+        height: 320px;
+        object-fit: cover;
+        object-position: top;
+      }
+      & .card-info {
+        width: 180px;
+      }
+    }
   }
 }
 

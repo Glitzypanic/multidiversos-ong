@@ -35,3 +35,17 @@
     min-height: 200px;
     width: 100%;
 }
+
+@media (min-width: 768px) {
+  .document-container {
+    & .document-container-tag {
+      font-size: var(--fs-sm);
+    }
+  }
+  .document-card-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+}

@@ -8,6 +8,9 @@ main {
   align-items: center;
 }
 
+/* Home styles */
+
+/* Main container styles */
 .home-container {
   background-color: var(--clr-neutral-100);
   width: 90%;
@@ -18,6 +21,7 @@ main {
   margin: 200px auto 0 auto;
 }
 
+/* Banner styles */
 .banner {
   position: absolute;
   z-index: 0;
@@ -30,7 +34,7 @@ main {
   height: 300px;
 }
 
-
+/* Container - tag - title */
 .focus-container {
   & .focus-tag {
     color: var(--clr-neutral-400);
@@ -43,6 +47,7 @@ main {
   }
 }
 
+/* About us */
 .about {
   display: flex;
   flex-direction: column;
@@ -59,6 +64,7 @@ main {
   }
 }
 
+/* Team cards styles */
 .teamwork {
   display: flex;
   margin-top: 20px;
@@ -78,6 +84,7 @@ main {
   }
 }
 
+/* Join us and contact cards styles */
 .joinUs-card {
   display: flex;
   background-color: var(--clr-neutral-200);
@@ -166,8 +173,34 @@ main {
   }
 }
 
-/* Estilos para los iconos */
+/* Icons styles */
 .icon {
   cursor: pointer;
-  /* transform: rotate(180deg); */
+}
+
+/* Responsive Designe */
+@media (min-width: 768px) {
+  .focus-container {
+    & .focus-tag {
+      font-size: var(--fs-sm);;
+    }
+  }
+
+  .joinUs-card {
+    & .joinUs-title {
+      font-size: var(--fs-xxl);
+    }
+    & img {
+      height: 450px;
+    }
+  }
+
+  .contact-card {
+    & .contact-title {
+      font-size: var(--fs-xxl);
+    }
+    & img {
+      height: 350px;
+    }
+  }
 }
