@@ -47,3 +47,18 @@ header.scrolled {
         }
     }
 }
+
+@media (min-width: 1440px) {
+    .header-container {
+        max-width: 1440px;
+    }
+    header {    
+            padding-left: 100px;
+    }
+}
+
+@media (min-width: 1920px) {
+    header {
+        padding-left: 300px;
+    }
+}

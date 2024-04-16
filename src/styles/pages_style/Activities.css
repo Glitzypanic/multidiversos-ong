@@ -69,7 +69,6 @@
 
 @media (min-width: 768px) {
     .activities-container {
-        padding: 40px;
         & .activities-tag {
             font-size: var(--fs-sm);
         }
@@ -88,4 +87,34 @@
             }
         }
     }
+}
+
+@media (min-width: 1024px) {
+    .activities-container {
+        padding: 40px;
+        & .activities-tag {
+            font-size: var(--fs-md);
+        }
+        & .activities-title {
+            font-size: var(--fs-xxxl);
+        }
+        & .activities-content {
+            & .activities-card {
+                & .activities-card-title {
+                    font-size: var(--fs-xxl);
+                }
+                & .activities-card-subTitle {
+                    font-size: var(--fs-lg);
+                }
+                & .activities-card-time {
+                    font-size: var(--fs-md);
+                }
+                & .activities-card-info {
+                    font-size: var(--fs-md);
+                }
+            }
+        }
+    }
+
+
 }

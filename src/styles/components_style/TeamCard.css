@@ -78,3 +78,22 @@
   }
 }
 
+@media (min-width: 1440px) {
+  .card-container {
+    display: grid;
+    width: fit-content;
+    & .card {
+      margin-left: 0px;
+      & .card-img {
+        width: 250px;
+        height: 320px;
+        object-fit: cover;
+        object-position: top;
+      }
+      & .card-info {
+        width: 230px;
+      }
+    }
+  }
+}
+

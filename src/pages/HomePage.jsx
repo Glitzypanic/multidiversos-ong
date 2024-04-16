@@ -60,7 +60,7 @@ export default function HomePage() {
             id="vision"  
             src={VisionIcon}
             title="Vision"
-            description="Nuestra visión es lograr una transformación social respecto a la mirada que se posee sobre la diversidad funcional, que permita una sociedad inclusiva, no discriminatoria y que acepte la diversidad.  Esperamos que a través de nuestro trabajo se hagan valer los derechos de todas las personas con diversidad funcional. "
+            description="Nuestra visión es lograr una transformación social respecto a la mirada que se posee sobre la diversidad funcional, que permita una sociedad inclusiva, no discriminatoria y que acepte la diversidad.  Esperamos que a través de nuestro trabajo se hagan valer los derechos de todas las personas con diversidad funcional"
           />
           <Mision
             src={ObjetivoIcon}

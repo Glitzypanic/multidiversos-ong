@@ -34,7 +34,7 @@ function Header() {
   }, []);
 
   return (
-    <>
+    <div className="header-container">
       <header ref={headerRef}>
         <Link to="/" className="logo">
           <img src={Logo} alt="Logo Multidiversos" />
@@ -46,7 +46,7 @@ function Header() {
         />
       </header>
       <NavMenu />
-    </>
+    </div>
   );
 }
 

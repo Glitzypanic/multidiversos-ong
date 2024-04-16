@@ -303,3 +303,52 @@ main {
     }
   }
 }
+
+@media (min-width: 1440px) {
+  main {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+
+  .joinUs-container{
+    width: 100%;
+    & .joinUs-card {
+      width: 800px;
+      & img {
+        height: 250px;
+      }
+      & .joinUs-title {
+        font-size: var(--fs-lg);
+      }
+      & .joinUs-description {
+        font-size: var(--fs-sm);
+      }
+      & .joinUs-button {
+        font-size: var(--fs-md);
+      }
+    }
+    & .contact-card {
+      height: 100%;
+      width: 800px;
+      margin: 0 auto;
+      & img {
+        height: 190px;
+      }
+      & .contact-column-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      & .contact-title {
+        font-size: var(--fs-lg);
+      }
+      & .contact-description {
+        font-size: var(--fs-sm);
+      }
+      & .contact-button {
+        font-size: var(--fs-md);
+      }
+    }
+  }
+}

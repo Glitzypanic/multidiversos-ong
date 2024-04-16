@@ -132,3 +132,19 @@
     }
   }
 }
+
+@media (min-width: 1440px) {
+  .nav-menu {
+    & .nav-front {
+      padding-right: 100px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .nav-menu {
+    & .nav-front {
+      padding-right: 300px;
+    }
+  }
+}
