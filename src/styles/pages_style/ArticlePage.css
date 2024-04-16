@@ -87,7 +87,9 @@
         }
         & .diversidad-info {
             width: 50%;
-            margin: 0 20px;
+            & p {
+                font-size: var(--fs-md);
+            }
         }
         & .diversidad-info-personas {
             width: 50%;
@@ -108,6 +110,7 @@
 
 @media (min-width: 1440px) {
     .diversidad-container {
+        padding: 40px;
         & .diversidad-info-personas{
             & img {
                 width: 400px;

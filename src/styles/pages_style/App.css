@@ -180,9 +180,6 @@ main {
 
 /* Responsive Designe */
 @media (min-width: 768px) {
-  .home-container {
-    padding: 40px;
-  }
   .focus-container {
     & .focus-tag {
       font-size: var(--fs-sm);;
@@ -212,7 +209,7 @@ main {
 
 @media (min-width: 1024px) {
   .home-container {
-    padding: 60px;
+    padding: 40px;
   } 
   .focus-container {
     & .focus-tag {

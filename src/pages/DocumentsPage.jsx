@@ -16,6 +16,9 @@ export default function DocumentsPage() {
           <CardDocument />
           <CardDocument />
           <CardDocument />
+          <CardDocument />
+          <CardDocument />
+          <CardDocument />
         </div>
       </div>
     </>

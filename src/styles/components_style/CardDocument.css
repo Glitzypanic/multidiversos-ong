@@ -48,3 +48,9 @@ display: flex;
       }
     }
   }
+
+  @media (min-width: 1024px) {
+    .card-document {
+      width: 250px;
+    }
+  }

@@ -42,7 +42,7 @@ export default function OrganigramPage() {
           <div className="grid grid-3">
             <h4 className="grid-title">Proyectos</h4>
             <img src={ProjectsImg} alt="" />
-            <p>Esta área se encarga de realizar proyectos.</p>
+            <p>Esta área se encarga de realizar los futuros proyectos.</p>
           </div>
         </article>
       </section>

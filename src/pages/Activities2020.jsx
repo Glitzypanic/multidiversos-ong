@@ -39,14 +39,14 @@ export default function ActivitiesPage() {
               <Carousel data={CarouselData.carousel2020} />
               <span data={CarouselData.carousel2020.description}></span>
             </div>
-            <iframe
+            {/* <iframe
               className="activities-card-video"
               src="https://www.youtube-nocookie.com/embed/VIDEO_ID?autoplay=1&enablejsapi=1&origin=Cnvtc8aRAQA?si=TBh31yXIqhuDbl33"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
               referrerPolicy="no-referrer "
               allowFullScreen
-            ></iframe>
+            ></iframe> */}
           </div>
 
           <div className="activities-card">
@@ -75,13 +75,13 @@ export default function ActivitiesPage() {
               <Carousel data={CarouselData.carousel2020_1} />
               <span data={CarouselData.carousel2020_1.description}></span>
             </div>
-            <iframe
+            {/* <iframe
               src="https://www.youtube-nocookie.com/embed/VIDEO_ID?autoplay=1&enablejsapi=1&origin=embed/L0zNxFcwpIM?si=E4E6wNycoQpumHTq"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
               referrerPolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+              allowFullScreen
+            ></iframe> */}
           </div>
         </div>
       </section>
