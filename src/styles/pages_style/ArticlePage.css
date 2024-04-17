@@ -16,6 +16,10 @@
             text-wrap: pretty;
             margin: 10px 0;
         }
+
+        & a {
+            text-decoration: none;
+        }
     }
     & .diversidad-info-personas{
         display: block;

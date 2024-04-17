@@ -60,6 +60,9 @@
       font-size: var(--fs-sm);
     }
   }
+  & .grid-3 {
+    width: 100%;
+  }
 }
 
 .banner-principal {

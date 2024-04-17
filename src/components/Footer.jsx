@@ -38,21 +38,13 @@ function Footer() {
         <h3>Contacto</h3>
         <ul>
           <li>
-            <a
-              onClick={() =>
-                window.open("https://wa.me/+56942596966", "_blank")
-              }
-            >
+            <a href="https://wa.me/+56942596966" target="_blank">
               <WhatsApp stroke="var(--clr-neutral-100)" height="18" />
               +569 42596977
             </a>
           </li>
           <li>
-            <a 
-              onClick={() =>
-                window.open("https://wa.me/+56942596966", "_blank")
-              }
-            >
+            <a href="https://wa.me/+56942596966" target="_blank">
               <Mail stroke="var(--clr-neutral-100)" height="18" />
               multidiversos.org@gmail.com
             </a>

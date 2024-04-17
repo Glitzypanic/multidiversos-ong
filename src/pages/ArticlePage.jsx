@@ -38,9 +38,11 @@ function Diversidad() {
             función es la misma pero se realiza de manera diferente
           </p>
 
+            <a href="/download/Modelo_de_la_Diversidad.pdf" download >
           <button className="diversidad-info-button">
             Modelo de la Diversidad <DownloadIcon />
           </button>
+            </a>
         </div>
 
         <div className="diversidad-info-personas">

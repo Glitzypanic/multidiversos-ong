@@ -23,12 +23,12 @@ function CardDocument() {
             </p>
             <div className="card-document-buttons">
               <button className="card-document-button" aria-label="Descargar">
-                <a href="#" className="card-document-link">
+                <a href="/download/PdfMultidiversos.pdf" download className="card-document-link">
                   Descargar <DownloadIcon />
                 </a>
               </button>
               <button className="card-document-button" aria-label="ver en linea">
-                <a href="#" className="card-document-link">
+                <a href="/download/PdfMultidiversos.pdf" target="_blank" rel="noopener noreferrer" className="card-document-link">
                   Ver <ExternalLink />
                 </a>
               </button>
