@@ -1,6 +1,7 @@
 main {
   margin: 0 auto;
   width: 100%;
+  min-width: 375px;
   max-width: 1440px;
   overflow-x: hidden;
   display: flex;
@@ -42,7 +43,6 @@ main {
     margin-bottom: 5px;
   }
   & .focus-title {
-    font-size: var(--fs-xxl);
     margin-bottom: 20px;
   }
 }
@@ -55,7 +55,7 @@ main {
   margin-bottom: 30px;
   & .about-title {
     margin-bottom: 20px;
-    font-size: var(--fs-xxl);
+    font-size: var(--fs-xl);
     width: 100%;
   }
   & .about-description {
@@ -97,6 +97,7 @@ main {
   margin-bottom: 50px;
   & .joinUs-title {
     font-size: var(--fs-xl);
+    text-align: center;
   }
   & .joinUs-description {
     font-size: var(--fs-sm);
@@ -139,6 +140,8 @@ main {
   margin-bottom: 50px;
   & .contact-title {
     font-size: var(--fs-xl);
+    width: 100%;
+    text-align: center;
   }
   & .contact-description {
     font-size: var(--fs-am);

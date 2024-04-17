@@ -1,14 +1,14 @@
 .focus-mision-card {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 20px;
     text-align: left;
     & .focus-mision-img {
-        height: 450px;
+        height: 350px;
     }
     & .focus-mision-title {
         margin: 5px 0 10px 0;
-        font-size: var(--fs-xl);
+        font-size: var(--fs-lg);
     }
     & .focus-mision-description {
         font-size: var(--fs-sm);

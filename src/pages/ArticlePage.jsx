@@ -9,7 +9,6 @@ function Diversidad() {
     <>
       <div className="banner-article"></div>
       <article className="diversidad-container">
-
         <div className="diversidad-info">
           <h5 className="diversidad-subTitle">ARTICULO</h5>
           <h1 className="diversidad-title">Diversidad funcional</h1>
@@ -38,18 +37,16 @@ function Diversidad() {
             otra que no lo es, se comunica a través del habla. En ambos casos la
             función es la misma pero se realiza de manera diferente
           </p>
-        
-        <button className="diversidad-info-button">
-          Modelo de la Diversidad <DownloadIcon />
-        </button>
-        </div>
 
+          <button className="diversidad-info-button">
+            Modelo de la Diversidad <DownloadIcon />
+          </button>
+        </div>
 
         <div className="diversidad-info-personas">
           <img src={javierImg} alt="Foto de Javier Romañach" />
           <img src={agustinaImg} alt="Foto de Agustina Palacios" />
         </div>
-
       </article>
     </>
   );

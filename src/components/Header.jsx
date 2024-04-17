@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { MenuContext } from "../utils/MenuContext.js";
 import { useEffect, useRef } from "react";
-import { Link } from "../components/Link.jsx";
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo.webp";
 import NavMenu from "./NavMenu.jsx";
 import MenuIcon from "./svg/MenuIcon.jsx";

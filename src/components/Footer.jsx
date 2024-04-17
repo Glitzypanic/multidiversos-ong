@@ -1,5 +1,5 @@
 import "../styles/components_style/Footer.css";
-import { Link } from "../components/Link.jsx";
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo.webp";
 import Facebook from "./svg/Facebook.jsx";
 import Instagram from "./svg/Instagram.jsx";
