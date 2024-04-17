@@ -44,6 +44,7 @@
     padding: 20px;
     border-radius: 10px;
     background-color: #f4f0ed;
+    height: 100%;
     & img {
       width: 100%;
       height: auto;
