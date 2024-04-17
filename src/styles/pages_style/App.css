@@ -42,7 +42,6 @@ main {
     margin-bottom: 5px;
   }
   & .focus-title {
-    font-size: var(--fs-xxl);
     margin-bottom: 20px;
   }
 }
@@ -55,7 +54,7 @@ main {
   margin-bottom: 30px;
   & .about-title {
     margin-bottom: 20px;
-    font-size: var(--fs-xxl);
+    font-size: var(--fs-xl);
     width: 100%;
   }
   & .about-description {

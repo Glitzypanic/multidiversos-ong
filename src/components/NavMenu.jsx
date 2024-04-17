@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { MenuContext } from "../utils/MenuContext";
 import { useState } from "react";
-import { Link } from "../components/Link";
+import { Link } from "react-router-dom";
 import "../styles/components_style/NavMenu.css";
 import CloseMenu from "./svg/CloseMenu";
 import Facebook from "./svg/Facebook";
