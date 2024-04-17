@@ -28,8 +28,8 @@ export default function ActivitiesPage() {
               Mar, muchas gracias por su coperación.
             </p>
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2020} />
-              <span data={CarouselData.carousel2020.description}></span>
+              <Carousel data={CarouselData.carousel1} />
+              <span data={CarouselData.carousel1.description}></span>
             </div>
           </div>
         </div>

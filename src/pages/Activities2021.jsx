@@ -41,8 +41,8 @@ export default function ActivitiesPage() {
             </p>
 
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2020} />
-              <span data={CarouselData.carousel2020.description}></span>
+              <Carousel data={CarouselData.carousel1} />
+              <span data={CarouselData.carousel1.description}></span>
             </div>
           </div>
 
@@ -68,8 +68,8 @@ export default function ActivitiesPage() {
             </p>
 
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2020_1} />
-              <span data={CarouselData.carousel2020_1.description}></span>
+              <Carousel data={CarouselData.carousel2} />
+              <span data={CarouselData.carousel2.description}></span>
             </div>
           </div>
 
@@ -87,8 +87,8 @@ export default function ActivitiesPage() {
               género realizada por la Organización Multidiversos.
             </p>
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2020_1} />
-              <span data={CarouselData.carousel2020_1.description}></span>
+              <Carousel data={CarouselData.carousel3} />
+              <span data={CarouselData.carousel3.description}></span>
             </div>
           </div>
 
@@ -107,8 +107,8 @@ export default function ActivitiesPage() {
               Multidiversos.
             </p>
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2020_1} />
-              <span data={CarouselData.carousel2020_1.description}></span>
+              <Carousel data={CarouselData.carousel1} />
+              <span data={CarouselData.carousel1.description}></span>
             </div>
           </div>
 
@@ -127,8 +127,8 @@ export default function ActivitiesPage() {
               el departamento de Infancia de Multidiversos.
             </p>
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2020_1} />
-              <span data={CarouselData.carousel2020_1.description}></span>
+              <Carousel data={CarouselData.carousel1} />
+              <span data={CarouselData.carousel1.description}></span>
             </div>
           </div>
 
@@ -150,8 +150,8 @@ export default function ActivitiesPage() {
               Multidiversos.
             </p>
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2020_1} />
-              <span data={CarouselData.carousel2020_1.description}></span>
+              <Carousel data={CarouselData.carousel2} />
+              <span data={CarouselData.carousel2.description}></span>
             </div>
           </div>
 
@@ -173,8 +173,8 @@ export default function ActivitiesPage() {
               A continuación encuentra el registro audiovisual del evento.
             </p>
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2020_1} />
-              <span data={CarouselData.carousel2020_1.description}></span>
+              <Carousel data={CarouselData.carousel2} />
+              <span data={CarouselData.carousel2.description}></span>
             </div>
           </div>
         </div>
