@@ -29,7 +29,8 @@ export const Carousel = ({ data }) => {
       <span className="indicators">
         {data.map((_, idx) => {
           return (
-            <button
+            <button 
+              aria-label="indicator"
               key={idx}
               onClick={() => setSlide(idx)}
               className={

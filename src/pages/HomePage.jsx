@@ -18,7 +18,7 @@ export default function HomePage() {
 
       <section className="home-container">
         <section className="focus-container">
-          <h5 className="focus-tag">INICIO</h5>
+          <h4 className="focus-tag">INICIO</h4>
           <section className="about">
             <h1 className="about-title">
               Multidiversos: Forjando un Mundo Más Inclusivo desde 2020
@@ -72,7 +72,7 @@ export default function HomePage() {
         <section className="teamwork">
           <div className="teamwork-container">
             <h2 className="teamwork-title">Equipo de Trabajo</h2>
-            <h4 className="teamwork-subTitle">Junta Directiva:</h4>
+            <h3 className="teamwork-subTitle">Junta Directiva:</h3>
           </div>
           <TeamCard data={teamData.team} />
         </section>

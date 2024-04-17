@@ -22,12 +22,12 @@ function CardDocument() {
               porro tempore inventore! Porro, dolore.
             </p>
             <div className="card-document-buttons">
-              <button className="card-document-button">
+              <button className="card-document-button" aria-label="Descargar">
                 <a href="#" className="card-document-link">
                   Descargar <DownloadIcon />
                 </a>
               </button>
-              <button className="card-document-button">
+              <button className="card-document-button" aria-label="ver en linea">
                 <a href="#" className="card-document-link">
                   Ver <ExternalLink />
                 </a>
