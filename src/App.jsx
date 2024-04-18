@@ -9,6 +9,7 @@ import "./styles/pages_style/App.css";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
+import Tools from "./components/Tools.jsx";
 
 // import dinamico de las paginas
 // const lazyPage404 = lazy(() => import("./pages/Page404.jsx"));
@@ -36,7 +37,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <MenuContext.Provider value={{ isMenuOpen, setIsMenuOpen }}>
+    <MenuContext.Provider value={{ isMenuOpen, setIsMenuOpen }} className="main-content">
       <Header />
       <main>
           <Routes defaultComponent={lazyPage404}>
@@ -49,6 +50,7 @@ function App() {
             <Route path="/organigram" Component={lazyOrganigramPage} />
             <Route path="/documents" Component={lazyDocumentsPage} />
           </Routes>
+      <Tools />
       </main>
       <Footer />
     </MenuContext.Provider>

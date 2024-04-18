@@ -1,0 +1,71 @@
+.tools-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+    bottom: 20px;
+    backdrop-filter: blur(1px);
+    & .tools-menu-open {
+        background-color: var(--clr-neutral-350);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 50px;
+        border: none;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0px 0px 6px 0px var(--clr-neutral-600);
+    }
+    & .tools-fonts-buttons {
+        background-color: var(--clr-neutral-350);
+        backdrop-filter: blur(1px);
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 5px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 6px 0px var(--clr-neutral-600);
+        & button {
+            background-color: var(--clr-accent-500);
+            color: var(--clr-neutral-100);
+            font-size: var(--fs-lg);
+            border: 1px solid var(--clr-Primary-700);
+            cursor: pointer;
+        }
+        & .tools-contrast-button {
+            display: flex;
+            gap:10px;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        & .tools-plus-button {
+            display: flex;
+            gap:10px;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            border-radius: 30px;
+        }
+        & .tools-minus-button {
+            display: flex;
+            gap:10px;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            border-radius: 30px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .tools-container {
+        display: flex;
+    }
+}
+

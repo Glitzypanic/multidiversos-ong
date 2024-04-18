@@ -1,0 +1,52 @@
+.toolsNav-container {
+  display: flex;
+  gap: 10px;
+  position: fixed;
+  align-items: center;
+  top: 80%;
+  width: fit-content;
+  & button {
+    background-color: var(--clr-accent-500);
+    color: var(--clr-neutral-100);
+    font-size: var(--fs-lg);
+    border: 1px solid var(--clr-Primary-700);
+    cursor: pointer;
+  }
+  & .toolsNav-contrast-button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  & .toolsNav-fontsize {
+    display: flex;
+    gap: 5px;
+      & .toolsNav-plus-button {
+        height: 25px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        border-radius: 10px 0 0 10px;
+      }
+      & .toolsNav-minus-button {
+        height: 25px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        border-radius: 0 10px 10px 0;
+      }
+  }
+}
+
+@media (min-width: 1024px) {
+    .toolsNav-container {
+        display: none;
+    }
+}

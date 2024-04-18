@@ -9,7 +9,7 @@
     position: fixed;
     background-color: var(--clr-neutral-950);
     height: 100%;
-    width: 40%;
+    min-width: 40%;
   }
   & .nav-front {
     position: fixed;
@@ -17,7 +17,7 @@
     background-color: var(--clr-neutral-100);
     right: 0;
     height: 100%;
-    width: 60%;
+    min-width: 60%;
     & .nav-closeIcon {
       width: 100%;
       text-align: right;
@@ -52,8 +52,6 @@
       position: fixed;
       display: flex;
       top: 90%;
-      max-width: 100%;
-      margin-left: 40px;
       .nav-socialMedia {
         display: flex;
         list-style: none;
@@ -68,10 +66,10 @@
 @media (min-width: 768px) {
   .nav-menu {
     & .nav-back {
-      width: 60%;
+      width: 65%;
     }
     & .nav-front {
-      width: 40%;
+      width: 35%;
       & .nav-socialMedia {
         margin-left: 20px;
       }
