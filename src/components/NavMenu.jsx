@@ -8,7 +8,7 @@ import Facebook from "./svg/Facebook";
 import Instagram from "./svg/Instagram";
 import WhatsApp from "./svg/Whatsapp";
 import ChevronIcon from "./svg/ChevronUp";
-import Tools from "./Tools";
+import ToolsNav from "./ToolsNav";
 
 function NavMenu() {
   const { isMenuOpen, setIsMenuOpen } = useContext(MenuContext);
@@ -69,7 +69,7 @@ function NavMenu() {
             </li>
           </ul>
 
-          <Tools />
+          <ToolsNav />
 
           <div className="nav-contact">
             <ul className="nav-socialMedia">
