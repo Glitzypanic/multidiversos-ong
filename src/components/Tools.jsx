@@ -8,7 +8,7 @@ import ContrastIcon from "./svg/Contrast";
 import "../styles/components_style/Tools.css";
 
 function Tools() {
-  
+  // Funcion para el contraste
   const [isGrayscale, setIsGrayscale] = useState(false);
 
   const toggleGrayscale = () => {
@@ -20,32 +20,7 @@ function Tools() {
     }
   };
 
-  const [fontSize, setFontSize] = useState(
-    parseInt(getComputedStyle(document.querySelector("body")).fontSize)
-  );
-  const [clicks, setClicks] = useState(0);
-
-  useEffect(() => {
-    const elements = document.querySelectorAll("body, p, h1, h2, h3, h4, h5");
-    elements.forEach((elements) => {
-      elements.style.fontSize = `${fontSize}px`;
-    });
-  }, [fontSize]);
-
-  const increaseFontSize = () => {
-    if (clicks < 6) {
-      setFontSize((prevFontSize) => prevFontSize + 1);
-      setClicks((prevClicks) => prevClicks + 1);
-    }
-  };
-
-  const decreaseFontSize = () => {
-    if (clicks > -4) {
-      setFontSize((prevFontSize) => (prevFontSize > 1 ? prevFontSize - 1 : 1));
-      setClicks((prevClicks) => prevClicks - 1);
-    }
-  };
-  
+  // Funcion para la accesibilidad
   const [isAccessibility, setIsAccessibility] = useState(false);
   const containerRef = useRef(null);
 
@@ -53,6 +28,7 @@ function Tools() {
     setIsAccessibility(true);
   };
 
+  // Funcion para cerrar el menu de accesibilidad haciendo click fuera del contenedor
   const handleClickOutside = (e) => {
     if (containerRef.current && !containerRef.current.contains(e.target)) {
       setIsAccessibility(false);
@@ -63,6 +39,30 @@ function Tools() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  // Estado para rastrear cuánto se ha incrementado o disminuido el tamaño de la fuente
+  const [fontChange, setFontChange] = useState(0);
+
+  // Funcion para aumentar el tamaño de la fuente
+  const handleIncreaseFont = () => {
+    if (fontChange < 5) {
+      const html = document.querySelector("html");
+      const computedStyle = window.getComputedStyle(html);
+      const fontSize = parseFloat(computedStyle.fontSize);
+      html.style.fontSize = `${fontSize + 1}px`;
+      setFontChange(fontChange + 1);
+    }
+  };
+
+  const handleDecreaseFont = () => {
+    if (fontChange > -4) {
+      const html = document.querySelector("html");
+      const computedStyle = window.getComputedStyle(html);
+      const fontSize = parseFloat(computedStyle.fontSize);
+      html.style.fontSize = `${fontSize - 1}px`;
+      setFontChange(fontChange - 1);
+    }
+  };
 
   return (
     <>
@@ -82,10 +82,10 @@ function Tools() {
             <button className="tools-contrast-button" onClick={toggleGrayscale}>
               <ContrastIcon size="35" stroke="var(--clr-neutral-100)" />
             </button>
-            <button className="tools-plus-button" onClick={increaseFontSize}>
+            <button className="tools-plus-button" onClick={handleIncreaseFont}>
               A <PlusIcon />
             </button>
-            <button className="tools-minus-button" onClick={decreaseFontSize}>
+            <button className="tools-minus-button" onClick={handleDecreaseFont}>
               A <MinusIcon />
             </button>
           </div>

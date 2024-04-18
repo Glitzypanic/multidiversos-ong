@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import PlusIcon from "./svg/PlusIcon";
 import MinusIcon from "./svg/MinusIcon";
 import ContrastIcon from "./svg/Contrast";
@@ -17,29 +17,27 @@ function Tools() {
     }
   };
 
-  const [fontSize, setFontSize] = useState(
-    parseInt(getComputedStyle(document.querySelector("body")).fontSize)
-  );
-  const [clicks, setClicks] = useState(0);
+  // Estado para rastrear cuánto se ha incrementado o disminuido el tamaño de la fuente
+  const [fontChange, setFontChange] = useState(0);
 
-  useEffect(() => {
-    const elements = document.querySelectorAll("body, p, h1, h2, h3, h4, h5");
-    elements.forEach((elements) => {
-      elements.style.fontSize = `${fontSize}px`;
-    });
-  }, [fontSize]);
-
-  const increaseFontSize = () => {
-    if (clicks < 6) {
-      setFontSize((prevFontSize) => prevFontSize + 1);
-      setClicks((prevClicks) => prevClicks + 1);
+  // Funcion para aumentar el tamaño de la fuente
+  const handleIncreaseFont = () => {
+    if (fontChange < 5) {
+      const html = document.querySelector("html");
+      const computedStyle = window.getComputedStyle(html);
+      const fontSize = parseFloat(computedStyle.fontSize);
+      html.style.fontSize = `${fontSize + 1}px`;
+      setFontChange(fontChange + 1);
     }
   };
 
-  const decreaseFontSize = () => {
-    if (clicks > -4) {
-      setFontSize((prevFontSize) => (prevFontSize > 1 ? prevFontSize - 1 : 1));
-      setClicks((prevClicks) => prevClicks - 1);
+  const handleDecreaseFont = () => {
+    if (fontChange > -4) {
+      const html = document.querySelector("html");
+      const computedStyle = window.getComputedStyle(html);
+      const fontSize = parseFloat(computedStyle.fontSize);
+      html.style.fontSize = `${fontSize - 1}px`;
+      setFontChange(fontChange - 1);
     }
   };
 
@@ -47,10 +45,10 @@ function Tools() {
     <>
       <div className="toolsNav-container" aria-hidden>
         <div className="toolsNav-fontsize">
-          <button className="toolsNav-plus-button" onClick={increaseFontSize}>
+          <button className="toolsNav-plus-button" onClick={handleIncreaseFont}>
             A <PlusIcon />
           </button>
-          <button className="toolsNav-minus-button" onClick={decreaseFontSize}>
+          <button className="toolsNav-minus-button" onClick={handleDecreaseFont}>
             A <MinusIcon />
           </button>
         </div>
