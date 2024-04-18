@@ -73,7 +73,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com/channel/UCPB2-B5RVvvHSQ7vIbUHXlQ" target="">
+            <a href="https://www.youtube.com/channel/UCPB2-B5RVvvHSQ7vIbUHXlQ" target="_blank">
             <Youtube stroke="#fdfdfd" />
             </a>
           </li>
