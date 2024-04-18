@@ -22,12 +22,19 @@ function NavMenu() {
   const handleChevronClick = () => {
     setIsChevronRotated(!isChevronRotated);
     setIsActivitiesVisible(!isActivitiesVisible);
+  };
+
+  const handleBackClick = () => {
+    setIsMenuOpen(false);
   }
 
   return (
     <>
-      <nav className="nav-menu" style={{ display: isMenuOpen ? 'block' : 'none'}}>
-        <div className="nav-back"></div>
+      <nav
+        className="nav-menu"
+        style={{ display: isMenuOpen ? "block" : "none" }}
+      >
+        <div className="nav-back" onClick={handleBackClick}></div>
         <div className="nav-front">
           <div className="nav-closeIcon">
             <CloseMenu stroke="#3e404c" onClick={handleMenuClose} />
@@ -41,22 +48,44 @@ function NavMenu() {
             </li>
             <ul className="nav-links activities">
               <a role="button" onClick={handleChevronClick}>
-                Actividades <ChevronIcon stroke="black" onClick={handleChevronClick} style={{ transform: isChevronRotated ? 'rotate(180deg)' : 'none' }}/>
+                Actividades{" "}
+                <ChevronIcon
+                  stroke="black"
+                  onClick={handleChevronClick}
+                  style={{
+                    transform: isChevronRotated ? "rotate(180deg)" : "none",
+                  }}
+                />
               </a>
-              <div className="nav-link-container" style={{display: isActivitiesVisible ? 'block' : 'none'}}>
-                <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
+              <div
+                className="nav-link-container"
+                style={{ display: isActivitiesVisible ? "block" : "none" }}
+              >
+                <li
+                  className="nav-links-years"
+                  style={{ display: isActivitiesVisible ? "block" : "none" }}
+                >
                   <Link to="/activities2020">2020</Link>
-                <span className="nav-link-line"></span>
+                  <span className="nav-link-line"></span>
                 </li>
-                <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
+                <li
+                  className="nav-links-years"
+                  style={{ display: isActivitiesVisible ? "block" : "none" }}
+                >
                   <Link to="/activities2021">2021</Link>
-                <span className="nav-link-line"></span>
+                  <span className="nav-link-line"></span>
                 </li>
-                <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
+                <li
+                  className="nav-links-years"
+                  style={{ display: isActivitiesVisible ? "block" : "none" }}
+                >
                   <Link to="/activities2022">2022</Link>
-                <span className="nav-link-line"></span>
+                  <span className="nav-link-line"></span>
                 </li>
-                <li className="nav-links-years" style={{ display: isActivitiesVisible ? 'block' : 'none'}}>
+                <li
+                  className="nav-links-years"
+                  style={{ display: isActivitiesVisible ? "block" : "none" }}
+                >
                   <Link to="/activities2023">2023</Link>
                 </li>
               </div>
