@@ -30,7 +30,7 @@ function Tools() {
   }, [fontSize]);
 
   const increaseFontSize = () => {
-    if (clicks < 4) {
+    if (clicks < 6) {
       setFontSize((prevFontSize) => prevFontSize + 1);
       setClicks((prevClicks) => prevClicks + 1);
     }
