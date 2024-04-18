@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { MenuContext } from "../utils/MenuContext";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/components_style/NavMenu.css";
 import CloseMenu from "./svg/CloseMenu";
@@ -27,6 +27,26 @@ function NavMenu() {
   const handleBackClick = () => {
     setIsMenuOpen(false);
   }
+
+
+useEffect(() => {
+  const handleClickOutside = (event) => {
+    const navContainer = document.querySelector('.nav-link-container');
+    if (isActivitiesVisible && navContainer && !navContainer.contains(event.target)) {
+      setIsActivitiesVisible(false);
+    }
+  };
+
+  // Agregar el evento de escucha cuando el componente se monta
+  window.addEventListener('mousedown', handleClickOutside);
+
+  // Limpiar el evento de escucha cuando el componente se desmonta
+  return () => {
+    window.removeEventListener('mousedown', handleClickOutside);
+  };
+}, [isActivitiesVisible]); // Dependencia para el efecto
+
+// ...
 
   return (
     <>
