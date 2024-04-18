@@ -123,7 +123,7 @@ export default function HomePage() {
                 necesites. ¡No dudes en contactarnos!
               </p>
               {/* <Form /> */}
-              <button className="contact-button" onClick={() => window.open('https://wa.me/+56942596966', '_blank')}>
+              <button className="contact-button" onClick={() => window.open('https://wa.me/+56930598765', '_blank')}>
                 <WhatsappIcon stroke="white"/>
                 Chat en WhatsApp
               </button>

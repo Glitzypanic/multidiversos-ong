@@ -38,13 +38,13 @@ function Footer() {
         <h3>Contacto</h3>
         <ul>
           <li>
-            <a href="https://wa.me/+56942596966" target="_blank">
+            <a href="https://wa.me/+56930598765" target="_blank">
               <WhatsApp stroke="var(--clr-neutral-100)" height="18" />
-              +569 42596977
+              +569 30598765
             </a>
           </li>
           <li>
-            <a href="https://wa.me/+56942596966" target="_blank">
+            <a role="button" target="_blank" className="mail">
               <Mail stroke="var(--clr-neutral-100)" height="18" />
               multidiversos.org@gmail.com
             </a>
@@ -58,16 +58,24 @@ function Footer() {
         <h3>Redes Sociales</h3>
         <ul>
           <li>
+            <a href="https://web.facebook.com/multi.diversos.92?_rdc=1&_rdr" target="_blank">
             <Facebook fill="#fdfdfd" />
+            </a>
           </li>
           <li>
+            <a href="https://www.instagram.com/organizacionmultidiversos/" target="_blank">
             <Instagram stroke="#fdfdfd" />
+            </a>
           </li>
           <li>
+            <a href="https://twitter.com/multidiversos_" target="_blank">
             <XIcon stroke="#fdfdfd" />
+            </a>
           </li>
           <li>
+            <a href="https://www.youtube.com/channel/UCPB2-B5RVvvHSQ7vIbUHXlQ" target="">
             <Youtube stroke="#fdfdfd" />
+            </a>
           </li>
         </ul>
       </div>

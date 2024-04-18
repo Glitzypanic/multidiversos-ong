@@ -35,6 +35,9 @@ footer {
 
   .footer-contacto {
     display: none;
+    & .mail {
+      text-decoration: none !important;
+    }
   }
 
   & .footer-social {
@@ -147,4 +150,8 @@ footer {
   footer {
     padding: 10px 280px;
   }
+}
+
+.icon-tabler-mail {
+  cursor: default;
 }

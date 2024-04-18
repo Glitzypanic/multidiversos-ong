@@ -123,17 +123,17 @@ useEffect(() => {
           <div className="nav-contact">
             <ul className="nav-socialMedia">
               <li>
-                <a href="#">
+                <a href="https://web.facebook.com/multi.diversos.92?_rdc=1&_rdr" target="_blank">
                   <Facebook fill="#3e404c" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/organizacionmultidiversos/" target="_blank">
                   <Instagram stroke="#3e404c" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://wa.me/+56930598765" target="_blank">
                   <WhatsApp stroke="#3e404c" />
                 </a>
               </li>
