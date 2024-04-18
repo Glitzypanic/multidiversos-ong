@@ -40,7 +40,7 @@ function NavMenu() {
               <Link to="/article">Articulos</Link>
             </li>
             <ul className="nav-links activities">
-              <a onClick={handleChevronClick}>
+              <a role="button" onClick={handleChevronClick}>
                 Actividades <ChevronIcon stroke="black" onClick={handleChevronClick} style={{ transform: isChevronRotated ? 'rotate(180deg)' : 'none' }}/>
               </a>
               <div className="nav-link-container" style={{display: isActivitiesVisible ? 'block' : 'none'}}>
