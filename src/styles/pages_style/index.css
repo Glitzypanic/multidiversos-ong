@@ -81,7 +81,7 @@ body {
     & .nav-back {
         opacity: 0.9;
     }
-    & .banner, .banner-article {
+    & .banner, .banner-article, .banner-principal {
         filter: grayscale(100%);
     }
 }
