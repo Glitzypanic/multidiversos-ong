@@ -41,7 +41,7 @@ function Header() {
           <h3>ONG MULTIDIVERSOS</h3>
         </Link>
         <MenuIcon 
-          stroke="var(--clr-neutral-900)" className="menu-open"
+          stroke="var(--clr-neutral-900)" className="menu-open icon"
           onClick={handleMenuOpen}  
         />
       </header>
