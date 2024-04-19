@@ -14,7 +14,7 @@ import WhatsappIcon from "../components/svg/Whatsapp";
 export default function HomePage() {
   return (
     <>
-      <div className="banner" loading="lazy"></div>
+      <div className="banner"></div>
 
       <section className="home-container">
         <section className="focus-container">
@@ -93,7 +93,7 @@ export default function HomePage() {
         
         <div className="joinUs-container">
           <div className="joinUs-card">
-            <img src={JoinUsIcon} />
+            <img src={JoinUsIcon} alt="ilustracion"/>
             <div className="column-right">
               <h2 className="joinUs-title">Únete a nuestro equipo</h2>
               <p className="joinUs-description">
@@ -114,7 +114,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="contact-card">
-              <img src={EmailIcon} />
+              <img src={EmailIcon} alt="ilustracion"/>
             <div className="contact-column-right">
               <h2 className="contact-title">Tienes alguna pregunta?</h2>
               <p className="contact-description">
