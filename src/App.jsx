@@ -31,9 +31,9 @@ function App() {
     >
       <Header />
       <main>
-        <Suspense fallback={Page404}>
+        <Suspense>
           <ScrollToTop />
-          <Routes>
+          <Routes >
             <Route path="/" Component={HomePage} />
             <Route path="/article" Component={ArticlePage} />
             <Route path="/activities2020" Component={Activities2020} />
@@ -42,6 +42,7 @@ function App() {
             <Route path="/activities2023" Component={Activities2023} />
             <Route path="/organigram" Component={OrganigramPage} />
             <Route path="/documents" Component={DocumentsPage} />
+            <Route path="*" Component={Page404} />
           </Routes>
         </Suspense>
         <Tools />
