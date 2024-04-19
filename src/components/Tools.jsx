@@ -67,7 +67,7 @@ function Tools() {
   return (
     <>
       <div ref={containerRef}>
-        <div className="tools-container" aria-hidden>
+        <div className="tools-container" aria-label="boton para controles de accesibilidad">
           <button
             className="tools-menu-open"
             onClick={handleCloseAccessibility}
