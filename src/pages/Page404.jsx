@@ -1,4 +1,5 @@
-import "../styles/pages_style/Page404.css"
+import "../styles/pages_style/Page404.css";
+import ErrorImg from "../assets/404.svg";
 
 import { Link } from "react-router-dom";
 
@@ -6,10 +7,15 @@ export default function Page404() {
   return (
     <article>
       <div className="error-message">
-        <h1>404</h1>
-        <p>Pagina no encontrada :(</p>
+        <img
+          src={ErrorImg}
+          alt="ilustracion de error de link"
+          className="error-img"
+        />
       </div>
-      <Link to="/" className="error-link">Volver al Inicio</Link>
+      <Link to="/">
+        <button> Volver al Inicio </button>
+      </Link>
     </article>
   );
 }
