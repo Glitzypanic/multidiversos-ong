@@ -58,22 +58,22 @@ function Footer() {
         <h3>Redes Sociales</h3>
         <ul>
           <li>
-            <a href="https://web.facebook.com/multi.diversos.92?_rdc=1&_rdr" target="_blank">
+            <a aria-label="Link para ir al perfil de Facebook" href="https://web.facebook.com/multi.diversos.92?_rdc=1&_rdr" target="_blank">
             <Facebook fill="#fdfdfd" />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/organizacionmultidiversos/" target="_blank">
+            <a aria-label="Link para ir al perfil de Instagram" href="https://www.instagram.com/organizacionmultidiversos/" target="_blank">
             <Instagram stroke="#fdfdfd" />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/multidiversos_" target="_blank">
+            <a aria-label="Link para ir al perfil de Twitter" href="https://twitter.com/multidiversos_" target="_blank">
             <XIcon stroke="#fdfdfd" />
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com/channel/UCPB2-B5RVvvHSQ7vIbUHXlQ" target="_blank">
+            <a aria-label="Link para ir al perfil de Youtube" href="https://www.youtube.com/channel/UCPB2-B5RVvvHSQ7vIbUHXlQ" target="_blank">
             <Youtube stroke="#fdfdfd" />
             </a>
           </li>
