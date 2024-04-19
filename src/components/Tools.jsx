@@ -67,8 +67,9 @@ function Tools() {
   return (
     <>
       <div ref={containerRef}>
-        <div className="tools-container" aria-label="boton para controles de accesibilidad">
+        <div className="tools-container">
           <button
+            aria-label="Open Accessibility Menu"
             className="tools-menu-open"
             onClick={handleCloseAccessibility}
             style={{ display: isAccessibility ? "none" : "flex" }}
