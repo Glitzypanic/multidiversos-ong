@@ -14,7 +14,7 @@ import WhatsappIcon from "../components/svg/Whatsapp";
 export default function HomePage() {
   return (
     <>
-      <div className="banner"></div>
+      <div className="banner" loading="lazy"></div>
 
       <section className="home-container">
         <section className="focus-container">
