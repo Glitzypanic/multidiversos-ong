@@ -13,7 +13,7 @@ function Tools() {
 
   const toggleGrayscale = () => {
     setIsGrayscale(!isGrayscale);
-    if (isGrayscale) {
+    if (!isGrayscale) {
       document.querySelector(".main-content").classList.add("grayscale");
     } else {
       document.querySelector(".main-content").classList.remove("grayscale");
@@ -55,7 +55,7 @@ function Tools() {
   };
 
   const handleDecreaseFont = () => {
-    if (fontChange > -4) {
+    if (fontChange > 0) {
       const html = document.querySelector("html");
       const computedStyle = window.getComputedStyle(html);
       const fontSize = parseFloat(computedStyle.fontSize);

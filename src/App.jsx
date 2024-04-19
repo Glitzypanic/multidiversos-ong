@@ -1,6 +1,7 @@
 // import { lazy, Suspense } from "react";
 import { MenuContext } from "./utils/MenuContext.js";
 import { useState } from "react";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 import "./styles/pages_style/App.css";
 
@@ -35,11 +36,13 @@ import lazyDocumentsPage from "./pages/DocumentsPage.jsx";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
 
   return (
     <MenuContext.Provider value={{ isMenuOpen, setIsMenuOpen }} className="main-content">
       <Header />
       <main>
+            <ScrollToTop />
           <Routes defaultComponent={lazyPage404}>
             <Route path="/" Component={lazyHomePage} />
             <Route path="/article" Component={lazyArticlePage} />

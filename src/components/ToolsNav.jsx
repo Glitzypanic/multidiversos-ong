@@ -6,11 +6,13 @@ import ContrastIcon from "./svg/Contrast";
 import "../styles/components_style/ToolsNav.css";
 
 function Tools() {
+  // Estado para rastrear si el modo de alto contraste está activado o no
   const [isGrayscale, setIsGrayscale] = useState(false);
 
+  // Función para activar o desactivar el modo de alto contraste
   const toggleGrayscale = () => {
     setIsGrayscale(!isGrayscale);
-    if (isGrayscale) {
+    if (!isGrayscale) {
       document.querySelector(".main-content").classList.add("grayscale");
     } else {
       document.querySelector(".main-content").classList.remove("grayscale");
@@ -32,7 +34,7 @@ function Tools() {
   };
 
   const handleDecreaseFont = () => {
-    if (fontChange > -4) {
+    if (fontChange > 0) {
       const html = document.querySelector("html");
       const computedStyle = window.getComputedStyle(html);
       const fontSize = parseFloat(computedStyle.fontSize);
