@@ -1,4 +1,5 @@
 # Multidiversos ONG - Sition Web Rediseñado 🚀 
+![desktop](https://github.com/Glitzypanic/multidiversos-ong/assets/133188693/10747046-3f2a-46a1-9e04-0a6109f7de4c)
 
 Hola!👋 me llamo Jose Farias y Este repositorio contiene mi versión del sitio web de la organización Multidiversos ONG ✅, donde he abordado varios aspectos importantes para mejorar la experiencia del usuario, la accesibilidad y el rendimiento del sitio ⚡.
 
