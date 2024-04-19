@@ -10,7 +10,7 @@ function Diversidad() {
       <div className="banner-article"></div>
       <article className="diversidad-container">
         <div className="diversidad-info">
-          <h5 className="diversidad-subTitle">ARTICULO</h5>
+          <h5 className="diversidad-subTitle">ARTÍCULO</h5>
           <h1 className="diversidad-title">Diversidad funcional</h1>
           <p>
             El cambio de lenguaje se basa en el modelo de la diversidad
@@ -35,7 +35,7 @@ function Diversidad() {
           <p>
             Por ejemplo, una persona sorda se comunica con la lengua de señas y
             otra que no lo es, se comunica a través del habla. En ambos casos la
-            función es la misma pero se realiza de manera diferente
+            función es la misma pero se realiza de manera diferente.
           </p>
 
             <a href="/download/Modelo_de_la_Diversidad.pdf" download >

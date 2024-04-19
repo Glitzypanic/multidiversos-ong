@@ -94,7 +94,7 @@ export default function ActivitiesPage() {
           </div>
 
           <div className="activities-card">
-            <h2 className="activities-card-title">Activiades:</h2>
+            <h2 className="activities-card-title">Actividades:</h2>
             <h3 className="activities-card-subTitle">
               Feria Social organizasa por estudiantes de Trabajo Social de la
               Universidad de Valparaiso
@@ -115,7 +115,7 @@ export default function ActivitiesPage() {
 
           <div className="activities-card">
             <h2 className="activities-card-title">
-              Activiades dia 2 de Diciembre:
+              Actividades dia 2 de Diciembre:
             </h2>
             <h3 className="activities-card-subTitle">
               Conmemoración del dia internacional de la Inclusion
@@ -137,7 +137,7 @@ export default function ActivitiesPage() {
 
           <div className="activities-card">
             <h2 className="activities-card-title">
-              Activiades dia 16 de Diciembre:
+              Actividades dia 16 de Diciembre:
             </h2>
             <h3 className="activities-card-subTitle">
               Programa Participacion e incidencia política
