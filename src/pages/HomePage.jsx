@@ -93,7 +93,7 @@ export default function HomePage() {
         
         <div className="joinUs-container">
           <div className="joinUs-card">
-            <img src={JoinUsIcon} alt="" />
+            <img src={JoinUsIcon} />
             <div className="column-right">
               <h2 className="joinUs-title">Únete a nuestro equipo</h2>
               <p className="joinUs-description">
@@ -114,7 +114,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="contact-card">
-              <img src={EmailIcon} alt="" />
+              <img src={EmailIcon} />
             <div className="contact-column-right">
               <h2 className="contact-title">Tienes alguna pregunta?</h2>
               <p className="contact-description">

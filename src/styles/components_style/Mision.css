@@ -5,6 +5,7 @@
     text-align: left;
     & .focus-mision-img {
         height: 350px;
+        width: 100%;
     }
     & .focus-mision-title {
         margin: 5px 0 10px 0;
