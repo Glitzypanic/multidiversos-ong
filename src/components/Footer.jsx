@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer-logo">
-        <img src={Logo} alt="Logo MULTIDIVERSOS" />
+        <img src={Logo} alt="Logo MULTIDIVERSOS" width="100" height="100"/>
         <span>ONG MULTIDIVERSOS</span>
       </div>
       <span className="footer-social-line"> </span>

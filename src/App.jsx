@@ -29,11 +29,11 @@ function App() {
       value={{ isMenuOpen, setIsMenuOpen }}
       className="main-content"
     >
-      <Header />
-      <main>
-        <Suspense>
+      <Suspense>
+        <Header />
+        <main>
           <ScrollToTop />
-          <Routes >
+          <Routes>
             <Route path="/" Component={HomePage} />
             <Route path="/article" Component={ArticlePage} />
             <Route path="/activities2020" Component={Activities2020} />
@@ -44,10 +44,10 @@ function App() {
             <Route path="/documents" Component={DocumentsPage} />
             <Route path="*" Component={Page404} />
           </Routes>
-        </Suspense>
-        <Tools />
-      </main>
-      <Footer />
+          <Tools />
+        </main>
+        <Footer />
+      </Suspense>
     </MenuContext.Provider>
   );
 }
