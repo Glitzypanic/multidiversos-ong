@@ -44,6 +44,7 @@ main {
   }
   & .focus-title {
     margin-bottom: 20px;
+    font-size: var(--fs-xxl);
   }
 }
 
