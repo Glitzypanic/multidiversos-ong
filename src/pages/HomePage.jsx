@@ -50,7 +50,7 @@ export default function HomePage() {
               <span data={carouselData.carousel3.description}></span>
             </div>
           </section>
-          <h1 className="focus-title">Mision y vision</h1>
+          <h2 className="focus-title">Mision y vision</h2>
           <Mision
             src={MisionIcon}
             title="Mision"
