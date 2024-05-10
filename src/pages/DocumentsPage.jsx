@@ -10,7 +10,7 @@ export default function DocumentsPage() {
         <h5 className="document-container-tag">DOCUMENTOS</h5>
         <h1 className="document-container-title">Documentos</h1>
         <p className="document-container-description">
-          Aqui puedes encontrar material para ver y descargar.
+          Aquí puedes encontrar material para ver y descargar.
         </p>
         <div className="document-card-container">
           <CardDocument />
