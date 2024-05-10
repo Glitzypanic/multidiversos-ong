@@ -35,14 +35,14 @@ function Diversidad() {
           <p>
             Por ejemplo, una persona sorda se comunica con la lengua de señas y
             otra que no lo es, se comunica a través del habla. En ambos casos la
-            función es la misma pero se realiza de manera diferente.
+            función es la misma, pero se realiza de manera diferente.
           </p>
 
-            <a href="/download/Modelo_de_la_Diversidad.pdf" download >
-          <button className="diversidad-info-button">
-            Modelo de la Diversidad <DownloadIcon />
-          </button>
-            </a>
+          <a href="/download/Modelo_de_la_Diversidad.pdf" download>
+            <button className="diversidad-info-button">
+              Modelo de la Diversidad <DownloadIcon />
+            </button>
+          </a>
         </div>
 
         <div className="diversidad-info-personas">
