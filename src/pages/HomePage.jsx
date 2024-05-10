@@ -1,15 +1,17 @@
-import Carousel  from "../components/Carousel";
-import carouselData from "../data/carouselData.json";
 import teamData from "../data/teamData.json";
-import TeamCard from "../components/TeamCard";
+import carouselData from "../data/carouselData.json";
+
+import EmailIcon from "../assets/email.svg";
+import JoinUsIcon from "../assets/joinus.svg";
 import MisionIcon from "../assets/mision.svg";
 import VisionIcon from "../assets/vision.svg";
-import EmailIcon from "../assets/email.svg";
 import ObjetivoIcon from "../assets/objetivogeneral.svg";
+
 import Mision from "../components/Mision";
-import ExternalLInkIcon from "../components/svg/ExternalLink";
-import JoinUsIcon from "../assets/joinus.svg";
+import Carousel  from "../components/Carousel";
+import TeamCard from "../components/TeamCard";
 import WhatsappIcon from "../components/svg/Whatsapp";
+import ExternalLInkIcon from "../components/svg/ExternalLink";
 
 export default function HomePage() {
   return (
