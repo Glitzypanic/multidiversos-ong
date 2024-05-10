@@ -26,27 +26,30 @@ function NavMenu() {
 
   const handleBackClick = () => {
     setIsMenuOpen(false);
-  }
-
-
-useEffect(() => {
-  const handleClickOutside = (event) => {
-    const navContainer = document.querySelector('.nav-link-container');
-    if (isActivitiesVisible && navContainer && !navContainer.contains(event.target)) {
-      setIsActivitiesVisible(false);
-    }
   };
 
-  // Agregar el evento de escucha cuando el componente se monta
-  window.addEventListener('mousedown', handleClickOutside);
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      const navContainer = document.querySelector(".nav-link-container");
+      if (
+        isActivitiesVisible &&
+        navContainer &&
+        !navContainer.contains(event.target)
+      ) {
+        setIsActivitiesVisible(false);
+      }
+    };
 
-  // Limpiar el evento de escucha cuando el componente se desmonta
-  return () => {
-    window.removeEventListener('mousedown', handleClickOutside);
-  };
-}, [isActivitiesVisible]); // Dependencia para el efecto
+    // Agregar el evento de escucha cuando el componente se monta
+    window.addEventListener("mousedown", handleClickOutside);
 
-// ...
+    // Limpiar el evento de escucha cuando el componente se desmonta
+    return () => {
+      window.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isActivitiesVisible]); // Dependencia para el efecto
+
+  // ...
 
   return (
     <>
@@ -64,7 +67,7 @@ useEffect(() => {
               <Link to="/">Inicio</Link>
             </li>
             <li>
-              <Link to="/article">Articulos</Link>
+              <Link to="/article">Artículos</Link>
             </li>
             <ul className="nav-links activities">
               <a role="button" onClick={handleChevronClick}>
@@ -123,12 +126,18 @@ useEffect(() => {
           <div className="nav-contact">
             <ul className="nav-socialMedia">
               <li>
-                <a href="https://web.facebook.com/multi.diversos.92?_rdc=1&_rdr" target="_blank">
+                <a
+                  href="https://web.facebook.com/multi.diversos.92?_rdc=1&_rdr"
+                  target="_blank"
+                >
                   <Facebook fill="#3e404c" />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/organizacionmultidiversos/" target="_blank">
+                <a
+                  href="https://www.instagram.com/organizacionmultidiversos/"
+                  target="_blank"
+                >
                   <Instagram stroke="#3e404c" />
                 </a>
               </li>
