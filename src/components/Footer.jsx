@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer-logo">
-        <img src={Logo} alt="Logo MULTIDIVERSOS" width="100" height="100"/>
+        <img src={Logo} alt="Logo MULTIDIVERSOS" width="100" height="100" />
         <span>ONG MULTIDIVERSOS</span>
       </div>
       <span className="footer-social-line"> </span>
@@ -23,7 +23,7 @@ function Footer() {
             <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/article">Articulos</Link>
+            <Link to="/article">Artículos</Link>
           </li>
           <li>
             <Link to="/organigram">Organigrama</Link>
@@ -58,23 +58,39 @@ function Footer() {
         <h3>Redes Sociales</h3>
         <ul>
           <li>
-            <a aria-label="Link para ir al perfil de Facebook" href="https://web.facebook.com/multi.diversos.92?_rdc=1&_rdr" target="_blank">
-            <Facebook fill="#fdfdfd" />
+            <a
+              aria-label="Link para ir al perfil de Facebook"
+              href="https://web.facebook.com/multi.diversos.92?_rdc=1&_rdr"
+              target="_blank"
+            >
+              <Facebook fill="#fdfdfd" />
             </a>
           </li>
           <li>
-            <a aria-label="Link para ir al perfil de Instagram" href="https://www.instagram.com/organizacionmultidiversos/" target="_blank">
-            <Instagram stroke="#fdfdfd" />
+            <a
+              aria-label="Link para ir al perfil de Instagram"
+              href="https://www.instagram.com/organizacionmultidiversos/"
+              target="_blank"
+            >
+              <Instagram stroke="#fdfdfd" />
             </a>
           </li>
           <li>
-            <a aria-label="Link para ir al perfil de Twitter" href="https://twitter.com/multidiversos_" target="_blank">
-            <XIcon stroke="#fdfdfd" />
+            <a
+              aria-label="Link para ir al perfil de Twitter"
+              href="https://twitter.com/multidiversos_"
+              target="_blank"
+            >
+              <XIcon stroke="#fdfdfd" />
             </a>
           </li>
           <li>
-            <a aria-label="Link para ir al perfil de Youtube" href="https://www.youtube.com/channel/UCPB2-B5RVvvHSQ7vIbUHXlQ" target="_blank">
-            <Youtube stroke="#fdfdfd" />
+            <a
+              aria-label="Link para ir al perfil de Youtube"
+              href="https://www.youtube.com/channel/UCPB2-B5RVvvHSQ7vIbUHXlQ"
+              target="_blank"
+            >
+              <Youtube stroke="#fdfdfd" />
             </a>
           </li>
         </ul>
