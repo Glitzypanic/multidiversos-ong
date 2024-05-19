@@ -28,7 +28,7 @@ export default function ActivitiesPage() {
             <div className="activities-card-carousel">
               <img
                 style={{
-                  height: "700px",
+                  height: "500px",
                   borderRadius: "10px",
                 }}
                 src="img/carousel/2023-1--1.webp"

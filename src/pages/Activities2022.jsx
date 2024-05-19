@@ -131,7 +131,7 @@ export default function ActivitiesPage() {
             <div className="activities-card-carousel">
               <img
                 style={{
-                  height: "700px",
+                  height: "500px",
                   borderRadius: "10px",
                 }}
                 src="img/carousel/2022-5--1.webp"
@@ -159,7 +159,7 @@ export default function ActivitiesPage() {
             <div className="activities-card-carousel">
               <img
                 style={{
-                  height: "700px",
+                  height: "500px",
                   borderRadius: "10px",
                 }}
                 src="img/carousel/2022-6--1.webp"
@@ -187,7 +187,7 @@ export default function ActivitiesPage() {
             <div className="activities-card-carousel">
               <img
                 style={{
-                  height: "700px",
+                  height: "500px",
                   borderRadius: "10px",
                 }}
                 src="img/carousel/2022-7--1.webp"
