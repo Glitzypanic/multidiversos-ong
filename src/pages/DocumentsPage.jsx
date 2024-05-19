@@ -14,11 +14,6 @@ export default function DocumentsPage() {
         </p>
         <div className="document-card-container">
           <CardDocument />
-          <CardDocument />
-          <CardDocument />
-          <CardDocument />
-          <CardDocument />
-          <CardDocument />
         </div>
       </div>
     </>
