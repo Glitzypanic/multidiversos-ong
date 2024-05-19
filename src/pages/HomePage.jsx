@@ -48,8 +48,8 @@ export default function HomePage() {
               capacitación interna.
             </p>
             <div className="carousel-container">
-              <Carousel data={carouselData.carousel3} />
-              <span data={carouselData.carousel3.description}></span>
+              <Carousel data={carouselData.carousel} />
+              <span data={carouselData.carousel.description}></span>
             </div>
           </section>
           <h2 className="focus-title">Mision y vision</h2>
