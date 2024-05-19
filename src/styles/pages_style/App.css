@@ -27,7 +27,7 @@ main {
   position: absolute;
   z-index: 0;
   top: 0;
-  background-image: url("../../../src/assets/banner.webp");
+  background-image: url("../../../src/assets/banner.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -196,7 +196,7 @@ main {
 @media (min-width: 768px) {
   .focus-container {
     & .focus-tag {
-      font-size: var(--fs-sm);;
+      font-size: var(--fs-sm);
     }
   }
 
@@ -224,7 +224,7 @@ main {
 @media (min-width: 1024px) {
   .home-container {
     padding: 40px;
-  } 
+  }
   .focus-container {
     & .focus-tag {
       font-size: var(--fs-md);
@@ -321,7 +321,7 @@ main {
     max-width: 1440px;
   }
 
-  .joinUs-container{
+  .joinUs-container {
     width: 100%;
     & .joinUs-card {
       width: 800px;
