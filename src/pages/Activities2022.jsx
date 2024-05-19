@@ -35,8 +35,8 @@ export default function ActivitiesPage() {
             </p>
 
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2} />
-              <span data={CarouselData.carousel2.description}></span>
+              <Carousel data={CarouselData.carousel3} />
+              <span data={CarouselData.carousel3.description}></span>
             </div>
           </div>
 
@@ -62,8 +62,8 @@ export default function ActivitiesPage() {
             </p>
 
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel1} />
-              <span data={CarouselData.carousel1.description}></span>
+              <Carousel data={CarouselData.carousel4} />
+              <span data={CarouselData.carousel4.description}></span>
             </div>
           </div>
 
@@ -88,16 +88,37 @@ export default function ActivitiesPage() {
             </p>
 
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel1} />
-              <span data={CarouselData.carousel1.description}></span>
+              <Carousel data={CarouselData.carousel5} />
+              <span data={CarouselData.carousel5.description}></span>
             </div>
           </div>
 
           <div className="activities-card">
             <h2 className="activities-card-title">Actividades:</h2>
             <h3 className="activities-card-subTitle">
-              Feria Social organizasa por estudiantes de Trabajo Social de la
-              Universidad de Valparaiso
+              Participación en Feria de Organizaciones realizada por la Escuela
+              de Trabajo Social de la Universidad de Valparaíso
+            </h3>
+            <span className="activities-card-time">
+              <WatchIcon stroke="red" /> 10 de Noviembre 2022
+            </span>
+            <p className="activities-card-info">
+              El día 10 de noviembre del 2022 se llevó a cabo una feria de
+              organizaciones en la Escuela de Trabajo Social de la Universidad
+              de Valparaíso.
+            </p>
+
+            <div className="activities-card-carousel">
+              <Carousel data={CarouselData.carousel6} />
+              <span data={CarouselData.carousel6.description}></span>
+            </div>
+          </div>
+
+          <div className="activities-card">
+            <h2 className="activities-card-title">Actividades:</h2>
+            <h3 className="activities-card-subTitle">
+              Feria Social organizada por estudiantes de Trabajo Social de la
+              Universidad de Valparaíso
             </h3>
             <span className="activities-card-time">
               <WatchIcon stroke="red" /> 30 de Noviembre 2022
@@ -108,8 +129,14 @@ export default function ActivitiesPage() {
             </p>
 
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel1} />
-              <span data={CarouselData.carousel1.description}></span>
+              <img
+                style={{
+                  height: "700px",
+                  borderRadius: "10px",
+                }}
+                src="img/carousel/2022-5--1.webp"
+                alt="Feria Social organizada por estudiantes de Trabajo Social de la Universidad de Valparaíso"
+              />
             </div>
           </div>
 
@@ -130,8 +157,14 @@ export default function ActivitiesPage() {
             </p>
 
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel1} />
-              <span data={CarouselData.carousel1.description}></span>
+              <img
+                style={{
+                  height: "700px",
+                  borderRadius: "10px",
+                }}
+                src="img/carousel/2022-6--1.webp"
+                alt="Conmemoración del día Internacional de la Inclusión"
+              />
             </div>
           </div>
 
@@ -152,8 +185,14 @@ export default function ActivitiesPage() {
             </p>
 
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel1} />
-              <span data={CarouselData.carousel1.description}></span>
+              <img
+                style={{
+                  height: "700px",
+                  borderRadius: "10px",
+                }}
+                src="img/carousel/2022-7--1.webp"
+                alt="Programa Participación e incidencia política"
+              />
             </div>
           </div>
         </div>
