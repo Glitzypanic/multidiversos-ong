@@ -8,7 +8,7 @@ import VisionIcon from "../assets/vision.svg";
 import ObjetivoIcon from "../assets/objetivogeneral.svg";
 
 import Mision from "../components/Mision";
-import Carousel  from "../components/Carousel";
+import Carousel from "../components/Carousel";
 import TeamCard from "../components/TeamCard";
 import WhatsappIcon from "../components/svg/Whatsapp";
 import ExternalLInkIcon from "../components/svg/ExternalLink";
@@ -59,7 +59,7 @@ export default function HomePage() {
             description="Nuestra misión es generar cambios en la sociedad a través de un trabajo interdisciplinario, promoviendo un cambio de lenguaje, fomentando una sociedad inclusiva basada en los Derechos Humanos, disminuyendo barreras, visibilizando situaciones que viven a diario las personas con diversidad funcional, a través de la educación y concientización de la sociedad. "
           />
           <Mision
-            id="vision"  
+            id="vision"
             src={VisionIcon}
             title="Vision"
             description="Nuestra visión es lograr una transformación social respecto a la mirada que se posee sobre la diversidad funcional, que permita una sociedad inclusiva, no discriminatoria y que acepte la diversidad.  Esperamos que a través de nuestro trabajo se hagan valer los derechos de todas las personas con diversidad funcional"
@@ -92,17 +92,17 @@ export default function HomePage() {
           </div>
           <TeamCard data={teamData.teamCuentas} />
         </section>
-        
+
         <div className="joinUs-container">
           <div className="joinUs-card">
-            <img src={JoinUsIcon} alt="ilustracion"/>
+            <img src={JoinUsIcon} alt="ilustracion" />
             <div className="column-right">
               <h2 className="joinUs-title">Únete a nuestro equipo</h2>
               <p className="joinUs-description">
-                ¡Únete a Multidiversos! Somos una ONG compuesta por estudiantes y
-                profesionales de diversas áreas, comprometidos con la promoción de
-                la conciencia colectiva y la inclusión de personas con diversidad
-                funcional en Valparaíso y Viña del Mar.
+                ¡Únete a Multidiversos! Somos una ONG compuesta por estudiantes
+                y profesionales de diversas áreas, comprometidos con la
+                promoción de la conciencia colectiva y la inclusión de personas
+                con diversidad funcional en Valparaíso y Viña del Mar.
               </p>
               <button className="joinUs-button">
                 <a
@@ -116,17 +116,22 @@ export default function HomePage() {
             </div>
           </div>
           <div className="contact-card">
-              <img src={EmailIcon} alt="ilustracion"/>
+            <img src={EmailIcon} alt="ilustracion" />
             <div className="contact-column-right">
-              <h2 className="contact-title">Tienes alguna pregunta?</h2>
+              <h2 className="contact-title">¿Tienes alguna pregunta?</h2>
               <p className="contact-description">
-                ¿Quieres hablar con nosotros? ¡Genial! Estamos aquí para responder
-                tus preguntas, recibir tus comentarios y ayudarte en lo que
-                necesites. ¡No dudes en contactarnos!
+                ¿Quieres hablar con nosotros? ¡Genial! Estamos aquí para
+                responder tus preguntas, recibir tus comentarios y ayudarte en
+                lo que necesites. ¡No dudes en contactarnos!
               </p>
               {/* <Form /> */}
-              <button className="contact-button" onClick={() => window.open('https://wa.me/+56930598765', '_blank')}>
-                <WhatsappIcon stroke="white"/>
+              <button
+                className="contact-button"
+                onClick={() =>
+                  window.open("https://wa.me/+56930598765", "_blank")
+                }
+              >
+                <WhatsappIcon stroke="white" />
                 Chat en WhatsApp
               </button>
             </div>
