@@ -1,5 +1,3 @@
-import CarouselData from "../data/carouselData.json";
-import Carousel from "../components/Carousel";
 import WatchIcon from "../components/svg/WatchIcon";
 
 import "../styles/pages_style/Activities.css";
@@ -28,8 +26,14 @@ export default function ActivitiesPage() {
               Mar, muchas gracias por su coperación.
             </p>
             <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel1} />
-              <span data={CarouselData.carousel1.description}></span>
+              <img
+                style={{
+                  height: "700px",
+                  borderRadius: "10px",
+                }}
+                src="img/carousel/2023-1--1.webp"
+                alt="Entrega de regalos recolectados para las familias afectadas por incendio en Viña del Mar"
+              />
             </div>
           </div>
         </div>
