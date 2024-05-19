@@ -39,14 +39,30 @@ export default function ActivitiesPage() {
               <Carousel data={CarouselData.carousel1} />
               <span data={CarouselData.carousel1.description}></span>
             </div>
-            {/* <iframe
-              className="activities-card-video"
-              src="https://www.youtube-nocookie.com/embed/VIDEO_ID?autoplay=1&enablejsapi=1&origin=Cnvtc8aRAQA?si=TBh31yXIqhuDbl33"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-              referrerPolicy="no-referrer "
-              allowFullScreen
-            ></iframe> */}
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px",
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/Cnvtc8aRAQA?si=OIdXY_DKls4XDvE9"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullscreen
+              ></iframe>
+            </div>
           </div>
 
           <div className="activities-card">
@@ -75,13 +91,30 @@ export default function ActivitiesPage() {
               <Carousel data={CarouselData.carousel2} />
               <span data={CarouselData.carousel2.description}></span>
             </div>
-            {/* <iframe
-              src="https://www.youtube-nocookie.com/embed/VIDEO_ID?autoplay=1&enablejsapi=1&origin=embed/L0zNxFcwpIM?si=E4E6wNycoQpumHTq"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe> */}
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px",
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/L0zNxFcwpIM?si=naySZq8IWbB1b9Ae"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullscreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
