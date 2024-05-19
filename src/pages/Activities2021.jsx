@@ -40,9 +40,29 @@ export default function ActivitiesPage() {
               esquina inferior derecha.
             </p>
 
-            <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel1} />
-              <span data={CarouselData.carousel1.description}></span>
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px" /* 16:9 Aspect Ratio */,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/XIDs-edAKc0?si=aUo4CjsoqMRcQEfb"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
 
@@ -67,9 +87,29 @@ export default function ActivitiesPage() {
               participación y el apoyo.
             </p>
 
-            <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2} />
-              <span data={CarouselData.carousel2.description}></span>
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px" /* 16:9 Aspect Ratio */,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/sfgeLItA_zY?si=PTAUZzb1F3K2HTCA"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullscreen
+              ></iframe>
             </div>
           </div>
 
@@ -86,16 +126,75 @@ export default function ActivitiesPage() {
               la psicóloga Camila Muñoz Castillo respecto a la violencia de
               género realizada por la Organización Multidiversos.
             </p>
-            <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel3} />
-              <span data={CarouselData.carousel3.description}></span>
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px" /* 16:9 Aspect Ratio */,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/ET1MVy9qNQg?si=IMxbwiLXoHRHYgMk"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div className="activities-card">
+            <h2 className="activities-card-title">Coversatorio:</h2>
+            <h3 className="activities-card-subTitle">
+              Hablemos de Karate inclusivo
+            </h3>
+            <span className="activities-card-time">
+              <WatchIcon stroke="red" /> 13 de Agosto 2021
+            </span>
+            <p className="activities-card-info">
+              El día 13 de Agosto del 2021 se llevó a cabo un conversatorio
+              respecto al Karate Inclusivo organizado por el departamento de
+              Deporte de la Organización de Multidiversos.
+            </p>
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px" /* 16:9 Aspect Ratio */,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/9TZIWG9luog?si=c5YiGbJsbCX9QIM5"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullscreen
+              ></iframe>
             </div>
           </div>
 
           <div className="activities-card">
             <h2 className="activities-card-title">Taller:</h2>
             <h3 className="activities-card-subTitle">
-              Uso correcto del lenguaje
+              Uso del Lenguaje personas con Diversidad Funcional
             </h3>
             <span className="activities-card-time">
               <WatchIcon stroke="red" /> 2 de Septiembre 2021
@@ -106,9 +205,29 @@ export default function ActivitiesPage() {
               por Khyara Montoya Montoya, presidenta y fundadora de la ONG
               Multidiversos.
             </p>
-            <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel1} />
-              <span data={CarouselData.carousel1.description}></span>
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px" /* 16:9 Aspect Ratio */,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/DGy8g819q_w?si=rHf8aJEUldrFgAaB"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullscreen
+              ></iframe>
             </div>
           </div>
 
@@ -126,9 +245,29 @@ export default function ActivitiesPage() {
               Hablemos de la Importancia del juego en la niñez, organizado por
               el departamento de Infancia de Multidiversos.
             </p>
-            <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel1} />
-              <span data={CarouselData.carousel1.description}></span>
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px" /* 16:9 Aspect Ratio */,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/R10DtyLGle0?si=dF1WBrvY3w_l10RH"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullscreen
+              ></iframe>
             </div>
           </div>
 
@@ -149,9 +288,29 @@ export default function ActivitiesPage() {
               organizado por el departamento de Salud de la organización
               Multidiversos.
             </p>
-            <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2} />
-              <span data={CarouselData.carousel2.description}></span>
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px" /* 16:9 Aspect Ratio */,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/JG3xGhQDOWU?si=9ambHdQj2rUv0xeq"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullscreen
+              ></iframe>
             </div>
           </div>
 
@@ -172,9 +331,53 @@ export default function ActivitiesPage() {
             <p className="activities-card-info">
               A continuación encuentra el registro audiovisual del evento.
             </p>
-            <div className="activities-card-carousel">
-              <Carousel data={CarouselData.carousel2} />
-              <span data={CarouselData.carousel2.description}></span>
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px" /* 16:9 Aspect Ratio */,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/k70U8KUGPlw?si=8Iq0A3HTBoOz1Tuk"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullscreen
+              ></iframe>
+            </div>
+            <div
+              style={{
+                position: "relative",
+                overflow: "hidden",
+                paddingTop: "56.25%",
+                margin: "10px" /* 16:9 Aspect Ratio */,
+              }}
+            >
+              <iframe
+                style={{
+                  position: "absolute",
+                  top: "0",
+                  left: "0",
+                  width: "100%",
+                  height: "100%",
+                }}
+                src="https://www.youtube.com/embed/pC56ISnhfMc?si=Jf-eGAb1cwJn5tPY"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullscreen
+              ></iframe>
             </div>
           </div>
         </div>
