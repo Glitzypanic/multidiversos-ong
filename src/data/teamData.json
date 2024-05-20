@@ -14,8 +14,9 @@
     },
     {
       "picture": "/img/personas/sofia.webp",
-      "alt": "Imagen de Sofia Aguallo",
-      "name": "Sofia Aguallo"
+      "alt": "Imagen de Sofia Aguayo",
+      "name": "Sofia Aguayo",
+      "position": "Secretaria"
     }
   ],
   "teamEtica": [
@@ -45,8 +46,8 @@
     },
     {
       "picture": "/img/personas/rodrigo.webp",
-      "alt": "Imagen de Tamara Nuñez",
-      "name": "Tamara Nuñez"
+      "alt": "Imagen de Tamara Núñez",
+      "name": "Tamara Núñez"
     }
   ]
 }
