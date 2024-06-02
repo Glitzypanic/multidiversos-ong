@@ -7,6 +7,47 @@
 <url>
   <loc>https://multidiversos.org/</loc>
   <lastmod>2024-06-02T19:35:03+00:00</lastmod>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://multidiversos.org/article</loc>
+  <lastmod>2024-06-02T19:35:03+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://multidiversos.org/activities2020</loc>
+  <lastmod>2024-06-02T19:35:03+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://multidiversos.org/activities2021</loc>
+  <lastmod>2024-06-02T19:35:03+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://multidiversos.org/activities2022</loc>
+  <lastmod>2024-06-02T19:35:03+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://multidiversos.org/activities2023</loc>
+  <lastmod>2024-06-02T19:35:03+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://multidiversos.org/organigram</loc>
+  <lastmod>2024-06-02T19:35:03+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://multidiversos.org/documents</loc>
+  <lastmod>2024-06-02T19:35:03+00:00</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://multidiversos.org/*</loc>
+  <lastmod>2024-06-02T19:35:03+00:00</lastmod>
+  <priority>0.8</priority>
 </url>
 
 
