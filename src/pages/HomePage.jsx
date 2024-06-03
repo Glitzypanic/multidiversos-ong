@@ -52,16 +52,16 @@ export default function HomePage() {
               <span data={carouselData.carousel.description}></span>
             </div>
           </section>
-          <h2 className="focus-title">Mision y vision</h2>
+          <h2 className="focus-title">Misión y visión</h2>
           <Mision
             src={MisionIcon}
-            title="Mision"
+            title="Misión"
             description="Nuestra misión es generar cambios en la sociedad a través de un trabajo interdisciplinario, promoviendo un cambio de lenguaje, fomentando una sociedad inclusiva basada en los Derechos Humanos, disminuyendo barreras, visibilizando situaciones que viven a diario las personas con diversidad funcional, a través de la educación y concientización de la sociedad. "
           />
           <Mision
             id="vision"
             src={VisionIcon}
-            title="Vision"
+            title="Visión"
             description="Nuestra visión es lograr una transformación social respecto a la mirada que se posee sobre la diversidad funcional, que permita una sociedad inclusiva, no discriminatoria y que acepte la diversidad.  Esperamos que a través de nuestro trabajo se hagan valer los derechos de todas las personas con diversidad funcional"
           />
           <Mision
@@ -107,7 +107,7 @@ export default function HomePage() {
               <button className="joinUs-button">
                 <a
                   className="joinUs-ancord"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSf1rxnHyrXPMY34KTdDkqZ7wJRnA3r3-v56oDhNDDZef-gIuA/viewform"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf1rxnHyrXPMY34KTdDkqZ7wJRnA3r3-v56oDhNDDZef-gIuA/viewform?usp=sf_link"
                   target="_blank"
                 >
                   Unirse <ExternalLInkIcon />
