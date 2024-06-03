@@ -104,14 +104,16 @@ export default function HomePage() {
                 promoción de la conciencia colectiva y la inclusión de personas
                 con diversidad funcional en Valparaíso y Viña del Mar.
               </p>
-              <button className="joinUs-button">
-                <a
-                  className="joinUs-ancord"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSf1rxnHyrXPMY34KTdDkqZ7wJRnA3r3-v56oDhNDDZef-gIuA/viewform?usp=sf_link"
-                  target="_blank"
-                >
-                  Unirse <ExternalLInkIcon />
-                </a>
+              <button
+                className="contact-button"
+                onClick={() =>
+                  window.open(
+                    "https://docs.google.com/forms/d/e/1FAIpQLSf1rxnHyrXPMY34KTdDkqZ7wJRnA3r3-v56oDhNDDZef-gIuA/viewform?usp=sf_link",
+                    "_blank"
+                  )
+                }
+              >
+                Unirse <ExternalLInkIcon />
               </button>
             </div>
           </div>
