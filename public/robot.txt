@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /actividades-2024
+Disallow: /misión-y-visión
+Disallow: /contacto
+Disallow: /acerca-de-diversidad-funcional
+Disallow: /actividades-2020-2023
+Disallow: /organigrama
+Disallow: /documentos-ong
