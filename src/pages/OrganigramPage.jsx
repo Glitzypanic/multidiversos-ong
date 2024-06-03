@@ -24,7 +24,7 @@ export default function OrganigramPage() {
             <p>
               Esta área se encarga de realizar actividades presenciales,
               hibridas y online que logren vincularnos con la comunidad con la
-              finalidad de entregar informaciones, generar una conciencia en
+              finalidad de entregar información, generar una conciencia en
               relación a la inclusión y facilitar espacios para personas con
               diversidad funcional.{" "}
             </p>
@@ -34,7 +34,7 @@ export default function OrganigramPage() {
             <img src={SocialMediaImg} alt="" />
             <p>
               Esta área se encarga de realizar contenido audiovisual con la
-              finalidad de entregar informaciones, generar una conciencia en
+              finalidad de entregar información, generar una conciencia en
               relación a la inclusión y facilitar espacios para personas con
               diversidad funcional. Además de encargarse de las redes sociales.
             </p>
