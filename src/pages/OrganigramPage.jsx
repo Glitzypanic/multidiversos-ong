@@ -19,7 +19,7 @@ export default function OrganigramPage() {
         <h2 className="organigrama-subTitle">Áreas de Trabajo</h2>
         <article className="organigrama-areas">
           <div className="grid grid-1">
-            <h4 className="grid-title">Integracion con la comunidad </h4>
+            <h4 className="grid-title">Integración con la comunidad </h4>
             <img src={ComunityImg} alt="" />
             <p>
               Esta área se encarga de realizar actividades presenciales,
