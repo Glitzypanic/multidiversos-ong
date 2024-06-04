@@ -81,7 +81,7 @@ export default function HomePage() {
 
         <section className="teamwork">
           <div className="teamwork-container">
-            <h4 className="teamwork-subTitle">Comisión de ética:</h4>
+            <h4 className="teamwork-subTitle">Comisión de Ética:</h4>
           </div>
           <TeamCard data={teamData.teamEtica} />
         </section>

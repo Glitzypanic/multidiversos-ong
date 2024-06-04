@@ -1,4 +1,4 @@
-import OrganigramImg from "../assets/Organigrama.webp";
+import OrganigramImg from "../assets/Organigrama2.webp";
 import ComunityImg from "../assets/Community.svg";
 import SocialMediaImg from "../assets/social-media.svg";
 import ProjectsImg from "../assets/project.svg";

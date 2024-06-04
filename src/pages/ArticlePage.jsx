@@ -19,7 +19,7 @@ function Diversidad() {
           </p>
 
           <p>
-            Uno de esos cambios es propugnar un cambio de terminología de
+            Uno de esos cambios es proponer un cambio de terminología de
             discapacidad, persona con discapacidad o situación de discapacidad a
             diversidad funcional y persona con diversidad funcional.
           </p>
@@ -28,7 +28,7 @@ function Diversidad() {
             Este término se ajusta a una realidad en la que la persona funciona
             de manera diferente o diversa de la mayoría de la sociedad.
             Considera la diferencia de la persona y la falta de respeto de las
-            mayorías, que en sus procesos constructivos no tienen en cuenta esa
+            mayorías, que en sus procesos constructivos no tienen en cuenta esta
             diversidad funcional (Romañach, J).
           </p>
 
