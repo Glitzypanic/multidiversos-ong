@@ -30,7 +30,7 @@ export default function ActivitiesPage() {
               integrantes de Multidiversos, quienes se encargaron de exponer el
               nacimiento de la organización, la historia de los modelos que han
               contemplado la diversidad funcional y el modelo que postula la
-              nueva terminología. Además, se llevo a cabo una instancia de
+              nueva terminología. Además, se llevó a cabo una instancia de
               preguntas en las cuales participaron muchas personas que
               asistieron.
             </p>
@@ -82,7 +82,7 @@ export default function ActivitiesPage() {
               La instancia fue realizada vía Zoom y tuvo como expositoras a
               integrantes de Multidiversos, quienes se encargaron de exponer
               sobre la organización, la constitución, el proceso constituyente,
-              sus fechas relevantes y sus requisitos. Además, se llevo a cabo
+              sus fechas relevantes y sus requisitos. Además, se llevó a cabo
               una instancia de micrófono abierto en las cuales participaron
               muchas personas que asistieron.
             </p>

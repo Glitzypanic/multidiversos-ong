@@ -23,7 +23,7 @@ export default function ActivitiesPage() {
             <p className="activities-card-info">
               El día 5 de Enero del 2023 entregamos todas las donaciones
               recibidas para las familias afectadas por el incendio de Viña del
-              Mar, muchas gracias por su coperación.
+              Mar, muchas gracias por su cooperación.
             </p>
             <div className="activities-card-carousel">
               <img

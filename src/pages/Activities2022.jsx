@@ -45,7 +45,7 @@ export default function ActivitiesPage() {
               Taller Uso del Lenguaje hacia personas con Diversidad Funcional
             </h2>
             <h3 className="activities-card-subTitle">
-              Escuela de Trabajo Social de la Universidad de Valparaiso
+              Escuela de Trabajo Social de la Universidad de Valparaíso
             </h3>
             <span className="activities-card-time">
               <WatchIcon stroke="red" /> 11 de Mayo 2022

@@ -1,5 +1,3 @@
-import CarouselData from "../data/carouselData.json";
-import Carousel from "../components/Carousel";
 import WatchIcon from "../components/svg/WatchIcon";
 
 import "../styles/pages_style/Activities.css";
@@ -122,7 +120,7 @@ export default function ActivitiesPage() {
               <WatchIcon stroke="red" /> 25 de Julio 2021
             </span>
             <p className="activities-card-info">
-              El día 25 de julio del 2021 se llevo a cabo una entrevista hacia
+              El día 25 de julio del 2021 se llevó a cabo una entrevista hacia
               la psicóloga Camila Muñoz Castillo respecto a la violencia de
               género realizada por la Organización Multidiversos.
             </p>
@@ -318,7 +316,7 @@ export default function ActivitiesPage() {
             <h2 className="activities-card-title">
               Actividades 3 de Diciembre:
             </h2>
-            <h3 className="activities-card-subTitle">Día de la Inclusion</h3>
+            <h3 className="activities-card-subTitle">Día de la Inclusión</h3>
             <span className="activities-card-time">
               <WatchIcon stroke="red" /> 3 de Diciembre 2021
             </span>
