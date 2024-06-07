@@ -8,15 +8,16 @@ import MenuIcon from "./svg/MenuIcon.jsx";
 import "../styles/components_style/Header.css";
 
 function Header() {
-
   const { setIsMenuOpen } = useContext(MenuContext);
 
+  // Función para abrir el menú
   const handleMenuOpen = () => {
     setIsMenuOpen(true);
-  }
-  
+  };
+
   const headerRef = useRef(null);
 
+  // Efecto para cambiar el color del header al hacer scroll
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 0) {
@@ -40,9 +41,10 @@ function Header() {
           <img src={Logo} alt="Logo Multidiversos" />
           <h3>ONG MULTIDIVERSOS</h3>
         </Link>
-        <MenuIcon 
-          stroke="var(--clr-neutral-900)" className="menu-open icon"
-          onClick={handleMenuOpen}  
+        <MenuIcon
+          stroke="var(--clr-neutral-900)"
+          className="menu-open icon"
+          onClick={handleMenuOpen}
         />
       </header>
       <NavMenu />
