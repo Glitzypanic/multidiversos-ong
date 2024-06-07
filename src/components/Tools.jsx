@@ -35,6 +35,7 @@ function Tools() {
     }
   };
 
+  // Efecto para cerrar el menu de accesibilidad haciendo click fuera del contenedor
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
@@ -54,6 +55,7 @@ function Tools() {
     }
   };
 
+  // Funcion para disminuir el tamaño de la fuente
   const handleDecreaseFont = () => {
     if (fontChange > 0) {
       const html = document.querySelector("html");
