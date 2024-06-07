@@ -33,6 +33,7 @@ function Tools() {
     }
   };
 
+  // Funcion para disminuir el tamaño de la fuente
   const handleDecreaseFont = () => {
     if (fontChange > 0) {
       const html = document.querySelector("html");
@@ -50,7 +51,10 @@ function Tools() {
           <button className="toolsNav-plus-button" onClick={handleIncreaseFont}>
             A <PlusIcon />
           </button>
-          <button className="toolsNav-minus-button" onClick={handleDecreaseFont}>
+          <button
+            className="toolsNav-minus-button"
+            onClick={handleDecreaseFont}
+          >
             A <MinusIcon />
           </button>
         </div>
