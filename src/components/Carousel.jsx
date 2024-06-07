@@ -3,13 +3,16 @@ import { ArrowLeftCircle, ArrowRightCircle } from "iconoir-react";
 
 import "../styles/components_style/Carousel.css";
 
+// Componente de carrusel
 export const Carousel = ({ data }) => {
   const [slide, setSlide] = useState(0);
 
+  // Función para pasar al siguiente slide
   const nextSlide = () => {
     setSlide(slide === data.length - 1 ? 0 : slide + 1);
   };
 
+  // Función para pasar al slide anterior
   const prevSlide = () => {
     setSlide(slide === 0 ? data.length - 1 : slide - 1);
   };
@@ -29,7 +32,7 @@ export const Carousel = ({ data }) => {
       <span className="indicators">
         {data.map((_, idx) => {
           return (
-            <button 
+            <button
               aria-label="indicator"
               key={idx}
               onClick={() => setSlide(idx)}
