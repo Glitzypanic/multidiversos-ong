@@ -1,5 +1,6 @@
-export const openMenu = document.querySelector('#open-menu');
+export const openMenu = document.querySelector("#open-menu");
 
-openMenu.addEventListener('click', () => {
-    console.log('click');
-})
+// Evento para abrir el menú
+openMenu.addEventListener("click", () => {
+  console.log("click");
+});
