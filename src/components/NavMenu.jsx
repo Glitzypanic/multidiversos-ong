@@ -10,24 +10,29 @@ import WhatsApp from "./svg/Whatsapp";
 import ChevronIcon from "./svg/ChevronUp";
 import ToolsNav from "./ToolsNav";
 
+// Componente de navegación del menú
 function NavMenu() {
   const { isMenuOpen, setIsMenuOpen } = useContext(MenuContext);
   const [isChevronRotated, setIsChevronRotated] = useState(false);
   const [isActivitiesVisible, setIsActivitiesVisible] = useState(false);
 
+  // Función para cerrar el menú
   const handleMenuClose = () => {
     setIsMenuOpen(false);
   };
 
+  // Función para rotar la flecha y mostrar las actividades
   const handleChevronClick = () => {
     setIsChevronRotated(!isChevronRotated);
     setIsActivitiesVisible(!isActivitiesVisible);
   };
 
+  // Función para cerrar el menú
   const handleBackClick = () => {
     setIsMenuOpen(false);
   };
 
+  // Efecto para cerrar el menú de actividades haciendo click fuera del contenedor
   useEffect(() => {
     const handleClickOutside = (event) => {
       const navContainer = document.querySelector(".nav-link-container");
