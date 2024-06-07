@@ -13,6 +13,11 @@ import TeamCard from "../components/TeamCard";
 import WhatsappIcon from "../components/svg/Whatsapp";
 import ExternalLInkIcon from "../components/svg/ExternalLink";
 
+/**
+ * Renders the Home page component.
+ *
+ * @returns {JSX.Element} The rendered Home page component.
+ */
 export default function HomePage() {
   return (
     <>
