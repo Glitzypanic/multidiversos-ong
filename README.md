@@ -15,3 +15,5 @@ Objetivos del Proyecto 🎯
 - Diseño Adaptativo: Diseñé el sitio para que se adapte de manera inteligente a diferentes tamaños de pantalla y dispositivos, lo que garantiza una experiencia de usuario óptima en cualquier entorno de navegación, ya sea en computadoras de escritorio, tabletas o teléfonos móviles.
 
 - Mejoras de SEO: Implementé técnicas de optimización para mejorar la visibilidad del sitio en los motores de búsqueda. Esto incluye la optimización de palabras clave, la estructuración adecuada del contenido y la generación de enlaces de retroceso de calidad para aumentar la autoridad del dominio y mejorar el posicionamiento en los resultados de búsqueda
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/89dc2bf3-1419-493c-baa5-4a0db2a1d347/deploy-status)](https://app.netlify.com/sites/multidiversos/deploys)
