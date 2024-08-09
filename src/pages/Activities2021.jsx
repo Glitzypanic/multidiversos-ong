@@ -1,5 +1,5 @@
 import WatchIcon from "../components/svg/WatchIcon";
-
+import "@justinribeiro/lite-youtube";
 import "../styles/pages_style/Activities.css";
 export default function ActivitiesPage() {
   return (
@@ -46,7 +46,8 @@ export default function ActivitiesPage() {
                 margin: "10px" /* 16:9 Aspect Ratio */,
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="XIDs-edAKc0"
                 style={{
                   position: "absolute",
                   top: "0",
@@ -54,13 +55,7 @@ export default function ActivitiesPage() {
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/XIDs-edAKc0?si=aUo4CjsoqMRcQEfb"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
           </div>
 
@@ -93,7 +88,8 @@ export default function ActivitiesPage() {
                 margin: "10px" /* 16:9 Aspect Ratio */,
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="sfgeLItA_zY"
                 style={{
                   position: "absolute",
                   top: "0",
@@ -101,13 +97,7 @@ export default function ActivitiesPage() {
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/sfgeLItA_zY?si=PTAUZzb1F3K2HTCA"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
           </div>
 
@@ -132,7 +122,8 @@ export default function ActivitiesPage() {
                 margin: "10px" /* 16:9 Aspect Ratio */,
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="ET1MVy9qNQg"
                 style={{
                   position: "absolute",
                   top: "0",
@@ -140,13 +131,7 @@ export default function ActivitiesPage() {
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/ET1MVy9qNQg?si=IMxbwiLXoHRHYgMk"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
           </div>
 
@@ -171,7 +156,8 @@ export default function ActivitiesPage() {
                 margin: "10px" /* 16:9 Aspect Ratio */,
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="9TZIWG9luog"
                 style={{
                   position: "absolute",
                   top: "0",
@@ -179,13 +165,7 @@ export default function ActivitiesPage() {
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/9TZIWG9luog?si=c5YiGbJsbCX9QIM5"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
           </div>
 
@@ -211,7 +191,8 @@ export default function ActivitiesPage() {
                 margin: "10px" /* 16:9 Aspect Ratio */,
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="DGy8g819q_w"
                 style={{
                   position: "absolute",
                   top: "0",
@@ -219,13 +200,7 @@ export default function ActivitiesPage() {
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/DGy8g819q_w?si=rHf8aJEUldrFgAaB"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
           </div>
 
@@ -251,7 +226,8 @@ export default function ActivitiesPage() {
                 margin: "10px" /* 16:9 Aspect Ratio */,
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="R10DtyLGle0"
                 style={{
                   position: "absolute",
                   top: "0",
@@ -259,13 +235,7 @@ export default function ActivitiesPage() {
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/R10DtyLGle0?si=dF1WBrvY3w_l10RH"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
           </div>
 
@@ -294,7 +264,8 @@ export default function ActivitiesPage() {
                 margin: "10px" /* 16:9 Aspect Ratio */,
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="JG3xGhQDOWU"
                 style={{
                   position: "absolute",
                   top: "0",
@@ -302,13 +273,7 @@ export default function ActivitiesPage() {
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/JG3xGhQDOWU?si=9ambHdQj2rUv0xeq"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
           </div>
 
@@ -337,7 +302,8 @@ export default function ActivitiesPage() {
                 margin: "10px" /* 16:9 Aspect Ratio */,
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="k70U8KUGPlw"
                 style={{
                   position: "absolute",
                   top: "0",
@@ -345,13 +311,7 @@ export default function ActivitiesPage() {
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/k70U8KUGPlw?si=8Iq0A3HTBoOz1Tuk"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
             <div
               style={{
@@ -361,7 +321,8 @@ export default function ActivitiesPage() {
                 margin: "10px" /* 16:9 Aspect Ratio */,
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="pC56ISnhfMc"
                 style={{
                   position: "absolute",
                   top: "0",
@@ -369,13 +330,7 @@ export default function ActivitiesPage() {
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/pC56ISnhfMc?si=Jf-eGAb1cwJn5tPY"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
           </div>
         </div>
