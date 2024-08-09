@@ -1,8 +1,9 @@
 import CarouselData from "../data/carouselData.json";
 import Carousel from "../components/Carousel";
 import WatchIcon from "../components/svg/WatchIcon";
-
 import "../styles/pages_style/Activities.css";
+import "@justinribeiro/lite-youtube";
+
 export default function ActivitiesPage() {
   return (
     <>
@@ -47,21 +48,16 @@ export default function ActivitiesPage() {
                 margin: "10px",
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="Cnvtc8aRAQA"
                 style={{
                   position: "absolute",
-                  top: 0,
-                  left: 0,
+                  top: "0",
+                  left: "0",
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/Cnvtc8aRAQA?si=OIdXY_DKls4XDvE9"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
           </div>
 
@@ -99,21 +95,16 @@ export default function ActivitiesPage() {
                 margin: "10px",
               }}
             >
-              <iframe
+              <lite-youtube
+                videoid="L0zNxFcwpIM"
                 style={{
                   position: "absolute",
-                  top: 0,
-                  left: 0,
+                  top: "0",
+                  left: "0",
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/L0zNxFcwpIM?si=naySZq8IWbB1b9Ae"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullscreen
-              ></iframe>
+              ></lite-youtube>
             </div>
           </div>
         </div>
