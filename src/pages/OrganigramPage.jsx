@@ -1,4 +1,4 @@
-import OrganigramImg from "../assets/organigrama2.webp";
+import OrganigramImg from "../assets/organigrama2.jpg";
 import ComunityImg from "../assets/Community.svg";
 import SocialMediaImg from "../assets/social-media.svg";
 import ProjectsImg from "../assets/project.svg";
@@ -14,7 +14,7 @@ export default function OrganigramPage() {
         <img
           className="organigrama-img"
           src={OrganigramImg}
-          alt="Imagen de un esquema"
+          alt="Organigrama que conforma el equipo de trabajo de la organización"
         />
         <h2 className="organigrama-subTitle">Áreas de Trabajo</h2>
         <article className="organigrama-areas">
