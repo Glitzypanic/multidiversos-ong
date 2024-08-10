@@ -34,12 +34,6 @@
   ],
   "teamCuentas": [
     {
-      "picture": "/img/personas/kiara.webp",
-      "alt": "Imagen de Kiara Labra Sánchez",
-      "name": "Kiara Labra Sánchez",
-      "position": "Presidenta Comisión Revisora de Cuentas"
-    },
-    {
       "picture": "/img/personas/miguel.webp",
       "alt": "Imagen de Miguel Vicencio",
       "name": "Miguel Vicencio"
