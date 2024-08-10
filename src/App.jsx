@@ -17,6 +17,7 @@ const Activities2020 = React.lazy(() => import("./pages/Activities2020.jsx"));
 const Activities2021 = React.lazy(() => import("./pages/Activities2021.jsx"));
 const Activities2022 = React.lazy(() => import("./pages/Activities2022.jsx"));
 const Activities2023 = React.lazy(() => import("./pages/Activities2023.jsx"));
+const Activities2024 = React.lazy(() => import("./pages/Activities2024.jsx"));
 const OrganigramPage = React.lazy(() => import("./pages/OrganigramPage.jsx"));
 const DocumentsPage = React.lazy(() => import("./pages/DocumentsPage.jsx"));
 const Page404 = React.lazy(() => import("./pages/Page404.jsx"));
@@ -40,6 +41,7 @@ function App() {
             <Route path="/activities2021" Component={Activities2021} />
             <Route path="/activities2022" Component={Activities2022} />
             <Route path="/activities2023" Component={Activities2023} />
+            <Route path="/activities2024" Component={Activities2024} />
             <Route path="/organigram" Component={OrganigramPage} />
             <Route path="/documents" Component={DocumentsPage} />
             <Route path="*" Component={Page404} />

@@ -115,6 +115,13 @@ function NavMenu() {
                   style={{ display: isActivitiesVisible ? "block" : "none" }}
                 >
                   <Link to="/activities2023">2023</Link>
+                  <span className="nav-link-line"></span>
+                </li>
+                <li
+                  className="nav-links-years"
+                  style={{ display: isActivitiesVisible ? "block" : "none" }}
+                >
+                  <Link to="/activities2024">2024</Link>
                 </li>
               </div>
             </ul>
