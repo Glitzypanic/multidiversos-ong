@@ -1,19 +1,19 @@
-# Multidiversos ONG - Sition Web Rediseñado 🚀
+# Multidiversos ONG - Redesigned Website 🚀
 
 ![desktop](https://github.com/Glitzypanic/multidiversos-ong/assets/133188693/10747046-3f2a-46a1-9e04-0a6109f7de4c)
 
-Hola!👋 este proyecto muestra mi versión del sitio web de la organización Multidiversos ONG ✅, donde he abordado varios aspectos importantes para mejorar la experiencia del usuario, la accesibilidad y el rendimiento del sitio ⚡.
+Hello!👋 This project showcases my version of the Multidiversos ONG organization's website ✅, where I have tackled several important aspects to enhance user experience, accessibility, and site performance ⚡.
 
-Objetivos del Proyecto 🎯
+Project Objectives 🎯
 
-- Mejora de Accesibilidad: Desarrollé un componente de accesibilidad que permite a los usuarios ajustar el tamaño del texto según sus preferencias personales. Además, agregué un botón para cambiar el contraste del sitio a blanco y negro, lo que puede mejorar la legibilidad para ciertos usuarios con necesidades específicas.
+- Accessibility Improvement: I developed an accessibility component that allows users to adjust text size according to their personal preferences. Additionally, I added a button to change the site's contrast to black and white, which can improve readability for certain users with specific needs.
 
-- Optimización de Rendimiento: Hice que el sitio cargue más rápido usando lazy loading. Básicamente, esto significa que elementos como imágenes o videos se cargan solo cuando el usuario los necesita, lo que hace que la página se vea más rápida y se sienta más fluida, especialmente en dispositivos con conexiones lentas.
+- Performance Optimization: I made the site load faster by using lazy loading. Basically, this means that elements like images or videos are loaded only when the user needs them, which makes the page appear quicker and feel smoother, especially on devices with slow connections.
 
-- Estructura del Código: Optimicé la estructura y los estilos del sitio para mejorar su estética y usabilidad, al tiempo que seguía las normas de accesibilidad web. Esto asegura que el sitio sea más fácil de usar para una variedad de usuarios.
+- Code Structure: I optimized the site's structure and styles to enhance its aesthetics and usability while following web accessibility standards. This ensures that the site is easier to use for a variety of users.
 
-- Diseño Adaptativo: Diseñé el sitio para que se adapte de manera inteligente a diferentes tamaños de pantalla y dispositivos, lo que garantiza una experiencia de usuario óptima en cualquier entorno de navegación, ya sea en computadoras de escritorio, tabletas o teléfonos móviles.
+- Responsive Design: I designed the site to smartly adapt to different screen sizes and devices, ensuring an optimal user experience in any browsing environment, whether on desktop computers, tablets, or mobile phones.
 
-- Mejoras de SEO: Implementé técnicas de optimización para mejorar la visibilidad del sitio en los motores de búsqueda. Esto incluye la optimización de palabras clave, la estructuración adecuada del contenido y la generación de enlaces de retroceso de calidad para aumentar la autoridad del dominio y mejorar el posicionamiento en los resultados de búsqueda
+- SEO Improvements: I implemented optimization techniques to improve the site's visibility in search engines. This includes keyword optimization, proper content structuring, and generating quality backlinks to increase domain authority and improve search engine rankings.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/89dc2bf3-1419-493c-baa5-4a0db2a1d347/deploy-status)](https://app.netlify.com/sites/multidiversos/deploys)
